@@ -1,0 +1,10 @@
+2/20/2025
+
+Section 2
+    Reorganize, move motivation and ethical concerns to the beginning of the chapter
+    Consolidate overview - 
+        Non Neural (integrated illiac suite by category)
+            Rule-based  
+            markoff
+            Other
+        Neural (RNN,GAN - Deep Learning with Transformers)

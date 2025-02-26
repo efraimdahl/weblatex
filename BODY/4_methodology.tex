@@ -115,17 +115,16 @@ For inference the user can provide a reference track from which the inner metric
 
 
 \subsection{Evaluating Control-Effectivness}
-As discussed in section \ref{section:evaluation}, calculating whether or not the control is effective, depends on the controlled feature, but can happen automatically. For the preliminary experiments targeting note density this can be done as follows, if note density is measured as a categorical variable i.e low, medium, high, the error would be calculated similarly to a multilabel classifier, where the predicted is label is the note_density of the generated music, and the true label is the note_density given in the prompt on a bar by bar level. The metrics inlcude accuracy, precision, recall and F1 scores If note-density is continuous (i.e notes per bar), then the error would be calculated as mean square error. 
-$$
-error_{continous} = \sqrt{\frac{1}{n}\sum{n}{j=1}(y_{generated}-y_{prompt})}
-$$
-
+As discussed in section \ref{section:evaluation}, calculating whether or not the control is effective, depends on the controlled feature, but can happen automatically. \\
+For the preliminary experiments targeting note density this can be done as follows, if note density is measured as a categorical variable i.e low, medium, high, the error would be calculated similarly to a multilabel classifier, where the predicted is label is the note_density of the generated music, and the true label is the note_density given in the prompt on a bar by bar level. The metrics inlcude accuracy, precision, recall and F1 scores If note-density is continuous (i.e notes per bar), then the error would be calculated as mean square error. \\
+\[
+error_{continuous} = \sqrt{\frac{1}{n}\sum_{j=1}^{n}(y_{generated}-y_{prompt})}
+\]
 Inner metric weight analysis generates metric weight profiles, which we use as guidance mechanism. Following the approach by \cite{Bemman2024} we can compare the the generated and the target rhythmic weight profiles using chi-squared distance.
 Given target distribution $T$ and generated distribution $G$ the distance is given by 
-$$
+\[
 D=\sum{i=0}{n=-1}(\frac{(T_i-G_i)^2}{T_i+G_i})
-$$
-
+\]
 
 \section{User Study}
 \textbf{RQ2} and \textbf{RQ3} are evaluated through a user study. The goal is too recruit $n=20$ participants to complete an interactive test of interactability and a survey comparativley evaluating the generated music. 

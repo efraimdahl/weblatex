@@ -3,13 +3,12 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-\chapter{Literature}
-\label{chap:data}
+\chapter{Literature} \label{chap:data}
 \pagestyle{fancy}
 
 The following section contains an extensive (though not exhaustive) categorical literature study. The first part provides contextual information, including motivations, and ethical concerns as well as a comprehensive overview of techniques used in music generation. The second half is more technical, with a discussion on music representation, tokenization, control and fine tuning. As a starting point, I used the most recent ISMIR (International Society for Music Information Retrieval) papers on music generation and their referenced sources, alongside other papers suggested by my advisor, Anja Volk. In addition, I performed systematic searches using the following keywords: Deep Learning Music Generation, Diffusion Music Generation, Transformer Music Generation, Symbolic Diffusion Music Generation, and Control Music Generation.
 
-\section{Why Generate Music? - Motivation} \label{section:motivation}
+\section{Why Generate Music? - Motivation  \label{section:motivation}}
 \subsection{Composition Co-Pilots}
 The earliest music generators (including the 18th-century musical dice games\cite{Nierhaus_2009}) were justified as methods to inspire composers and music makers, including enabling novice composers to write music. Composer David Cope\cite{Cope_1989} states that he turned to music generation to overcome writer’s block. Commercial enterprises like Suno claim to be “building a future where everybody can make great music” \cite{Suno_AI}. Many current and past efforts highlight music generation as a process that assists composers. In DeepBach\cite{Hadjeres_Pachet_Nielsen_2017}, the authors go to great lengths to make the system flexible and usable in real-life composition scenarios. Initially, they developed a MuseScore integration and later tied DeepBach into the web app NONOTO\footnote{https://github.com/SonyCSLParis/music-inpainting-ts} to support musical inpainting in Ableton Live scores. Similarly, with Composer’s Assistant\cite{Malandro_2023}, the authors explicitly enable musical inpainting and continuation in the REAPER music production software. AI has also been explored as a co-improviser for live music-making, such as in Pachet's Continuator\cite{Pachet_2003} and Ben-Tal's musical dialog system\cite{Kite-Powell_2023}.
 

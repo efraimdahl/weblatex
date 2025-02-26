@@ -18,6 +18,34 @@ Applying the BPE tokenizer results in sequence lengths roughly 1/3 of the origin
     \label{fig:tok_compare}
 \end{figure}
 
+
+\section{Integration into LastMinuteGig 2 months}
+This project is motivated by extending the music engine of LastMinuteGig. \cite{Chalkiadakis_2022}. The application currently employs a very simple algorithm. I will outline it below. 
+\begin{itemize}
+    \item{1}: Randomly choose key, rhythmic pattern, chord progression and tempo from a pool of possible values.
+    \item{2}: Play corresponding percussion audio clip (depends on tempo and rhythmic pattern)
+    \item{3}: When user plays the button trigger the guitar sound of the current chord.
+    \item{4}: After 8 bars - make a random change (to rhythm, tempo, pause)
+\end{itemize}
+
+
+This music engine will be changed in the following way. Most of the generative process will be done asynchronously.
+\begin{itemize}
+    \item{1}: Create $n=100$ musical pieces with different control settings
+    \item{2}: For each piece
+    \item{3}: Extract chords from prompt (assuming high control success) - save mapping $m1$
+    \item{4}: Extract change of rhythmic pattern (or tempo or meter or instrumentation since these are already controllable in the musiclang model) - save mapping
+    \item{5}: Render symbolic music to audio
+\end{itemize}
+
+During game play
+\begin{itemize}
+    \item{1}: Load random audio clip and mappings.
+    \item{2}: Play associated guitar chords when player taps.
+    \item{3}: Register changes in tapping on musical changes.
+    \item{4}: Repeat when audio clip has finished playing.
+\end{itemize}
+
 \begin{table}[H]
 \label{table:bigtable}
     \centering

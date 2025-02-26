@@ -123,7 +123,7 @@ error_{continuous} = \sqrt{\frac{1}{n}\sum_{j=1}^{n}(y_{generated}-y_{prompt})}
 Inner metric weight analysis generates metric weight profiles, which we use as guidance mechanism. Following the approach by \cite{Bemman2024} we can compare the the generated and the target rhythmic weight profiles using chi-squared distance.
 Given target distribution $T$ and generated distribution $G$ the distance is given by 
 \[
-D=\sum{i=0}{n=-1}(\frac{(T_i-G_i)^2}{T_i+G_i})
+D=\sum_{i=0}^{n-1}\left(\frac{(T_i-G_i)^2}{T_i+G_i}\right)
 \]
 
 \section{User Study}

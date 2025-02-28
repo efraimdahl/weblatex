@@ -11,9 +11,14 @@ Tokenized Sequence Lengths - Mean: 14519, Median: 13159.0, Std Dev: 7197\\
 
 Applying the BPE tokenizer results in sequence lengths roughly 1/3 of the original sequences. The sample is taken from 1000 random music pieces from the lakh-midi dataset. 
 
+\section{Feature categorisation}
+
+\textbf{Global features} in music generation encompass high-level descriptors such as genre, function, and instrumentation/orchestration. Global features also incorporate summarizing features, that are calculated from the music itself. As an example, McKay’s \cite{McKay_2004} general-purpose symbolic music classification system defines over 104 global features, 37 of them used for melody descriptors such as probability distributions of note durations, intervals, and pitch classes. These global features can then be used to infer other high-level descriptors such as genre if it's unknown, they can also support music retrieval systems \cite{Van_Kranenburg_Volk_Wiering_2013}.  \textbf{Local features} describe individual sequences such as melodic, rhythmic, or harmonic sections. They are more information-rich, which may explain their superior performance in music retrieval \cite{Van_Kranenburg_Volk_Wiering_2013}. 
+
+Also relevant in the music generation context are \textbf{high-level} vs \textbf{low-level} features. Music generation can take high-level concepts such as genre \cite{Rouard_Adi_Copet_Roebel_Défossez_musicgenstyle_2024}, \cite{Lu_Xu_Kang_Yu_Xing_Tan_Bian_MuseCoco_2023} or emotion \cite{Tan_Herremans_2020} \cite{Lu_Xu_Kang_Yu_Xing_Tan_Bian_MuseCoco_2023} into account, which in turn effects more complex dynamics of concrete features. To illustrate: In Music FaderNets \cite{Tan_Herremans_2020} the authors use a variational autoencoder to disentangle the abstract concept of arousal, into several concrete features including rhythmic density, note-density, tempo and dynamic, key. This allows them to change the abstract variable arousal, which cascades into a change of underlying features. This type of disentanglement can aid in situations where labled musical data with the abstract feature is less available, it can also aid in creating more accessible and interpretable generative models.
 
 
-\section{Integration into LastMinuteGig 2 months}
+\section{LastMinuteGig - music algorithms}
 This project is motivated by extending the music engine of LastMinuteGig. \cite{Chalkiadakis_2022}. The application currently employs a very simple algorithm. I will outline it below. 
 \begin{itemize}
     \item{1}: Randomly choose key, rhythmic pattern, chord progression and tempo from a pool of possible values.
@@ -23,7 +28,7 @@ This project is motivated by extending the music engine of LastMinuteGig. \cite{
 \end{itemize}
 
 
-This music engine will be changed in the following way. Most of the generative process will be done asynchronously.
+The following is a description of an improved algorithm utilizing generated music by RhythmLang
 \begin{itemize}
     \item{1}: Create $n=100$ musical pieces with different control settings
     \item{2}: For each piece
@@ -40,8 +45,7 @@ During game play
     \item{4}: Repeat when audio clip has finished playing.
 \end{itemize}
 
-\begin{table}[H]
-\label{table:bigtable}
+\begin{table}[H] \label{table:bigtable}
     \centering
     \begin{tabular}{|l|l|l|l|l|l|l|}
         \hline

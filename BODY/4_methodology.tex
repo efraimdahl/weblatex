@@ -93,39 +93,6 @@ If these experiments are unsuccessful, we can follow the approach of \cite{Shu_X
 Inner metric analysis (IMA) creates metric weight profiles we use as guiding features passed to the model bar by bar, which allows us to induce shifts in metric weight in the output. 
 For this, we use the globally smallest available note grid of the Lakh MIDI dataset $g_min$. These distributions are normalized and provided to the model as vectors of length $g_{min}$.
 The model then learns embeddings of the distribution alongside positional embeddings \cite{Lin_cocomulla_2024}. These embeddings are then incorporated into the model. For inference, the user can provide a reference track from which the inner metric profile is extracted and passed to the model. 
-\begin{figure}[H]
-    \centering
-    \begin{subfigure}{0.45\textwidth}
-        \centering
-        \includegraphics[width=\linewidth]{IMAGES/IMA1.JPG}
-        \caption{Single local meter and its pulses (A) from the melody "Twinkle, Twinkle Little Star"}
-        \label{fig:ima1}
-    \end{subfigure}
-    \begin{subfigure}{0.45\textwidth}
-        \centering
-        \includegraphics[width=\linewidth]{IMAGES/IMA2.JPG}
-        \caption{10 local meters and their pulses produced by IMA of a syncopated variation of "Twinkle, Twinkle Little Star"}
-        \label{fig:ima2}
-    \end{subfigure}
-    
-    \vspace{0.5cm} % Adjust spacing between rows
-
-    \begin{subfigure}{0.45\textwidth}
-        \centering
-        \includegraphics[width=\linewidth]{IMAGES/IMA3.JPG}
-        \caption{Metric weight profile of syncopated "Twinkle, Twinkle Little Star"}
-        \label{fig:ima3}
-    \end{subfigure}
-    \begin{subfigure}{0.45\textwidth}
-        \centering
-        \includegraphics[width=\linewidth]{IMAGES/IMA4.JPG}
-        \caption{Spectral weight profile of syncopated "Twinkle, Twinkle Little Star"}
-        \label{fig:ima4}
-    \end{subfigure}
-
-    \caption{Visualisation of metric weight analysis \cite{Bemman2024}}
-    \label{fig:ima_all}
-\end{figure}
 
 \subsection{Training RhythmLang}
 Methods 1, 2 and 3 are sorted by expected difficulty of implementation. First BassCraft is extended using each of the methods with control for note density. When a method is found to introduce sufficient control we extend this to metric weight and try generating basslines with a provided metric profile. Finally, the most promising method (or combination of methods) is adopted to MusicLang, creating RhythmLang.

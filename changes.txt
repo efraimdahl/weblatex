@@ -8,3 +8,14 @@ Section 2
             markoff
             Other
         Neural (RNN,GAN - Deep Learning with Transformers)
+
+    Control: Strong consolidation
+
+Section 3 
+    Minimal summary of section 2 and how it informs the research questions
+    Properly defined research questions
+
+Section 4 Methodology:
+    Changed approach, focus on model development instead of comparative control methods or MACT. 
+    Added detailed descriptions on model input/output/modes. 
+    Added detailed descriptions of evaluation and planned experiments.

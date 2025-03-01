@@ -18,7 +18,7 @@ Applying the BPE tokenizer results in sequence lengths roughly 1/3 of the origin
 Also relevant in the music generation context are \textbf{high-level} vs \textbf{low-level} features. Music generation can take high-level concepts such as genre \cite{Rouard_Adi_Copet_Roebel_Défossez_musicgenstyle_2024}, \cite{Lu_Xu_Kang_Yu_Xing_Tan_Bian_MuseCoco_2023} or emotion \cite{Tan_Herremans_2020} \cite{Lu_Xu_Kang_Yu_Xing_Tan_Bian_MuseCoco_2023} into account, which in turn effects more complex dynamics of concrete features. To illustrate: In Music FaderNets \cite{Tan_Herremans_2020} the authors use a variational autoencoder to disentangle the abstract concept of arousal, into several concrete features including rhythmic density, note-density, tempo and dynamic, key. This allows them to change the abstract variable arousal, which cascades into a change of underlying features. This type of disentanglement can aid in situations where labled musical data with the abstract feature is less available, it can also aid in creating more accessible and interpretable generative models.
 
 
-\section{LastMinuteGig - music algorithms}
+\section{LastMinuteGig - music algorithms}\label{musicalgorithm}
 This project is motivated by extending the music engine of LastMinuteGig. \cite{Chalkiadakis_2022}. The application currently employs a very simple algorithm. I will outline it below. 
 \begin{itemize}
     \item{1}: Randomly choose key, rhythmic pattern, chord progression and tempo from a pool of possible values.
@@ -44,6 +44,32 @@ During game play
     \item{3}: Register changes in tapping on musical changes.
     \item{4}: Repeat when audio clip has finished playing.
 \end{itemize}
+
+
+\section{MIDI Bass Instruments}\label{midi-bass}
+\begin{table}[h]
+    \centering
+    \begin{tabular}{ll}
+        \toprule
+        \textbf{Instrument Name} & \textbf{MIDI Channel} \\
+        \midrule
+        Electric Bass (Finger)  & 34 \\
+        Electric Bass (Pick)    & 35 \\
+        Fretless Bass           & 36 \\
+        Slap Bass 1            & 37 \\
+        Slap Bass 2            & 38 \\
+        Synth Bass 1           & 39 \\
+        Synth Bass 2           & 40 \\
+        Acoustic Bass          & 33 \\
+        Contrabass             & 43 \\
+        Cello                  & 46 \\
+        Trombone               & 57 \\
+        Tuba                   & 58 \\
+        \bottomrule
+    \end{tabular}
+    \caption{MIDI Instrument Mapping}
+    \label{tab:midi_instruments}
+\end{table}
 
 
 
@@ -115,3 +141,4 @@ Subjective listening test to indicate success of arousal shift -> 48 participant
 \item{NDRD} Symbolic Music Generation with Non-Differentiable Rule Guided Diffusion.
 Guidance of diffusion sampling with non-differentiable rules. 
 \end{itemize}
+

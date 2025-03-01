@@ -4,11 +4,11 @@ Section 2
     Reorganize, move motivation and ethical concerns to the beginning of the chapter. 
     Consolidate overview of Non-Neural Systems, expanded section on early neural systems. 
 
-    Added Table to beginning of technical section
+    Added Table to beginning of technical section - table is explained (by column) and referred to in the following sections
 
     Representation: Improved explanation of tokenizer
 
-    Control: Strong consolidation
+    Control: Strong consolidation + Explanation of IMA
 
     Evaluation: improved explanations, moved planned evaluation to methodology. 
 
@@ -19,4 +19,4 @@ Section 3
 Section 4 Methodology:
     Changed approach, focus on model development instead of comparative control methods or MACT. 
     Added detailed descriptions on model input/output/modes. 
-    Added detailed descriptions of evaluation and planned experiments.
+    Added detailed descriptions of evaluation and planned experiments, and reasoning why. 

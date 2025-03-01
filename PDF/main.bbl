@@ -345,8 +345,8 @@
       \strng{authorbibnamehash}{9d5305cdeaea8dacb8b6a9d39bfcfc37}
       \strng{authornamehash}{9d5305cdeaea8dacb8b6a9d39bfcfc37}
       \strng{authorfullhash}{9d5305cdeaea8dacb8b6a9d39bfcfc37}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{978-3-211-75539-6}
@@ -379,8 +379,8 @@
       \strng{authorbibnamehash}{b1f83435cd5e177479da9aa154b2dda4}
       \strng{authornamehash}{b1f83435cd5e177479da9aa154b2dda4}
       \strng{authorfullhash}{b1f83435cd5e177479da9aa154b2dda4}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{978-0-697-03342-0}
@@ -663,8 +663,8 @@
       \strng{editorbibnamehash}{be92d713f5de43fe1ef8e8fb1b4ff11a}
       \strng{editornamehash}{be92d713f5de43fe1ef8e8fb1b4ff11a}
       \strng{editorfullhash}{be92d713f5de43fe1ef8e8fb1b4ff11a}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Handbook of Research on Improving Learning and Motivation through Educational Games: Multidisciplinary Approaches}
@@ -1033,8 +1033,8 @@
       \strng{authorbibnamehash}{98caf6e8bff8ee1610bddb09de79feb9}
       \strng{authornamehash}{98caf6e8bff8ee1610bddb09de79feb9}
       \strng{authorfullhash}{98caf6e8bff8ee1610bddb09de79feb9}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{6}
@@ -1440,8 +1440,8 @@
       \strng{authorbibnamehash}{4425489ca4c1086026b107ce92a4c36a}
       \strng{authornamehash}{4425489ca4c1086026b107ce92a4c36a}
       \strng{authorfullhash}{e6d1bc69376f936360a0a70ddcc99051}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{arXiv}
@@ -1791,8 +1791,8 @@
       \strng{authorbibnamehash}{3da6bfd86f371717cbe3bb77582f1617}
       \strng{authornamehash}{3da6bfd86f371717cbe3bb77582f1617}
       \strng{authorfullhash}{3da6bfd86f371717cbe3bb77582f1617}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Formalized Music Thought and Mathematics in Composition}
@@ -2343,8 +2343,8 @@
       \strng{authorbibnamehash}{621c1cbf15c54083b67761969f571779}
       \strng{authornamehash}{621c1cbf15c54083b67761969f571779}
       \strng{authorfullhash}{621c1cbf15c54083b67761969f571779}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Scientific American}
@@ -2495,8 +2495,8 @@
       \strng{authorbibnamehash}{46bfa9edc7cf94495008ca6dd15c9343}
       \strng{authornamehash}{46bfa9edc7cf94495008ca6dd15c9343}
       \strng{authorfullhash}{46bfa9edc7cf94495008ca6dd15c9343}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Advances in Neural Information Processing Systems 4 (NIPS 1991)}
@@ -2870,8 +2870,8 @@
       \strng{authorbibnamehash}{087630f9bbee61f4357e81a646e4315d}
       \strng{authornamehash}{2ecbb6449df1a0e48d29cd62d72e7b53}
       \strng{authorfullhash}{087630f9bbee61f4357e81a646e4315d}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{arXiv}
@@ -2985,256 +2985,259 @@
       \verb 10.1145/3597493
       \endverb
     \endentry
-    \entry{Chen_Smith_Spijkervet_Wang_Zou_Li_Kong_Du_2024}{inproceedings}{}
-      \name{author}{8}{}{%
-        {{hash=5aaf76b42312672cce68f13a4b42e59d}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Haonan},
-           giveni={H\bibinitperiod}}}%
-        {{hash=d9f35d783161ee36fa3f85daada549a5}{%
-           family={Smith},
-           familyi={S\bibinitperiod},
-           given={Jordan\bibnamedelimb B.\bibnamedelimi L.},
-           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
-        {{hash=b758aa866f147f69df7e26dbc0ab2fba}{%
-           family={Spijkervet},
-           familyi={S\bibinitperiod},
-           given={Janne},
-           giveni={J\bibinitperiod}}}%
-        {{hash=f0f763ff340d5931cec66f877b353286}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Ju-Chiang},
-           giveni={J\bibinithyphendelim C\bibinitperiod}}}%
-        {{hash=86c972c8e5c8cc149b48ff78f35ab6c5}{%
-           family={Zou},
-           familyi={Z\bibinitperiod},
-           given={Pei},
-           giveni={P\bibinitperiod}}}%
-        {{hash=18935e8a60e488e0bd6e232a7b3dce64}{%
-           family={Li},
-           familyi={L\bibinitperiod},
-           given={Bochen},
-           giveni={B\bibinitperiod}}}%
-        {{hash=ed01687b397aa60f29b0b4e861ac6a2d}{%
-           family={Kong},
+    \entry{sessionfolkdata}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=367f03b02a55ce9e4f4bad25d3501b2c}{%
+           family={Keith},
            familyi={K\bibinitperiod},
-           given={Qiuqiang},
-           giveni={Q\bibinitperiod}}}%
-        {{hash=103d0b97306a2a5c1940f7540c3bd49b}{%
-           family={Du},
+           given={Jeremy},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{367f03b02a55ce9e4f4bad25d3501b2c}
+      \strng{fullhash}{367f03b02a55ce9e4f4bad25d3501b2c}
+      \strng{bibnamehash}{367f03b02a55ce9e4f4bad25d3501b2c}
+      \strng{authorbibnamehash}{367f03b02a55ce9e4f4bad25d3501b2c}
+      \strng{authornamehash}{367f03b02a55ce9e4f4bad25d3501b2c}
+      \strng{authorfullhash}{367f03b02a55ce9e4f4bad25d3501b2c}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{TheSession Data}
+      \verb{urlraw}
+      \verb https://github.com/adactio/TheSession-data
+      \endverb
+      \verb{url}
+      \verb https://github.com/adactio/TheSession-data
+      \endverb
+    \endentry
+    \entry{jsbchorales}{misc}{}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labeltitlesource}{title}
+      \field{title}{Canonical JSB Dataset Chorals 389}
+      \verb{urlraw}
+      \verb https://github.com/czhuang/JSB-Chorales-dataset
+      \endverb
+      \verb{url}
+      \verb https://github.com/czhuang/JSB-Chorales-dataset
+      \endverb
+    \endentry
+    \entry{hawthorne2018maestro}{inproceedings}{}
+      \name{author}{9}{}{%
+        {{hash=4102bf268c4922002c51584dbb63c959}{%
+           family={Hawthorne},
+           familyi={H\bibinitperiod},
+           given={Curtis},
+           giveni={C\bibinitperiod}}}%
+        {{hash=bd9ccff49b29cb00d6855ab66232a1ab}{%
+           family={Stasyuk},
+           familyi={S\bibinitperiod},
+           given={Andriy},
+           giveni={A\bibinitperiod}}}%
+        {{hash=243c03e5ae8031582d6af9fcbc70f629}{%
+           family={Roberts},
+           familyi={R\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod}}}%
+        {{hash=0b461ec7764bb41a6287a8d0716006a0}{%
+           family={Simon},
+           familyi={S\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod}}}%
+        {{hash=9406d3118ff06a9e9b1fc218f4106061}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Cheng-Zhi\bibnamedelima Anna},
+           giveni={C\bibinithyphendelim Z\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=a133b469b21b870786119a47b1b691eb}{%
+           family={Dieleman},
            familyi={D\bibinitperiod},
-           given={Xingjian},
-           giveni={X\bibinitperiod}}}%
+           given={Sander},
+           giveni={S\bibinitperiod}}}%
+        {{hash=6aa92a937d4d30dd0b5ec0eecbad1bf1}{%
+           family={Elsen},
+           familyi={E\bibinitperiod},
+           given={Erich},
+           giveni={E\bibinitperiod}}}%
+        {{hash=84488af703576ab131f87436b63aeef0}{%
+           family={Engel},
+           familyi={E\bibinitperiod},
+           given={Jesse},
+           giveni={J\bibinitperiod}}}%
+        {{hash=b2c4631ad93e93115d9b3ceea6587550}{%
+           family={Eck},
+           familyi={E\bibinitperiod},
+           given={Douglas},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{e1932fad1445f2a1c222f4aebfde6776}
+      \strng{fullhash}{d7b3447bf817650a9fae3d8e5c821a04}
+      \strng{bibnamehash}{e1932fad1445f2a1c222f4aebfde6776}
+      \strng{authorbibnamehash}{e1932fad1445f2a1c222f4aebfde6776}
+      \strng{authornamehash}{e1932fad1445f2a1c222f4aebfde6776}
+      \strng{authorfullhash}{d7b3447bf817650a9fae3d8e5c821a04}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{International Conference on Learning Representations}
+      \field{title}{Enabling Factorized Piano Music Modeling and Generation with the {MAESTRO} Dataset}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://openreview.net/forum?id=r1lYRjC9F7
+      \endverb
+      \verb{url}
+      \verb https://openreview.net/forum?id=r1lYRjC9F7
+      \endverb
+    \endentry
+    \entry{classicalarchives}{misc}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Classical Archives Dataset Donation}
+      \verb{urlraw}
+      \verb https://www.classicalarchives.com/newca/#!/
+      \endverb
+      \verb{url}
+      \verb https://www.classicalarchives.com/newca/#!/
+      \endverb
+    \endentry
+    \entry{bitmidi}{misc}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Bit Midi Dataset Donation}
+      \verb{urlraw}
+      \verb https://bitmidi.com/
+      \endverb
+      \verb{url}
+      \verb https://bitmidi.com/
+      \endverb
+    \endentry
+    \entry{hooktheorypopmidi}{misc}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Hook Theory collection of pop-song transcriptions}
+      \verb{urlraw}
+      \verb https://www.hooktheory.com/theorytab
+      \endverb
+      \verb{url}
+      \verb https://www.hooktheory.com/theorytab
+      \endverb
+    \endentry
+    \entry{Tan_Herremans_2020}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=a9b1e03c8b331f80f52e20aa6cd4cd8a}{%
+           family={Tan},
+           familyi={T\bibinitperiod},
+           given={Hao},
+           giveni={H\bibinitperiod}}}%
+        {{hash=fdae87cad6eeb39b72cfdb074d296c7b}{%
+           family={Herremans},
+           familyi={H\bibinitperiod},
+           given={Dorien},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
       }
       \list{location}{1}{%
-        {San Fancisco, CA, USA}%
+        {Montreal QC Canada}%
       }
-      \strng{namehash}{8c5979caacecb6854e882faf2826dc79}
-      \strng{fullhash}{8a4ebd43c783292f1842bb41c5fc576c}
-      \strng{bibnamehash}{8c5979caacecb6854e882faf2826dc79}
-      \strng{authorbibnamehash}{8c5979caacecb6854e882faf2826dc79}
-      \strng{authornamehash}{8c5979caacecb6854e882faf2826dc79}
-      \strng{authorfullhash}{8a4ebd43c783292f1842bb41c5fc576c}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \strng{namehash}{d5ce007b1d3daab730ea7184e97ca701}
+      \strng{fullhash}{d5ce007b1d3daab730ea7184e97ca701}
+      \strng{bibnamehash}{d5ce007b1d3daab730ea7184e97ca701}
+      \strng{authorbibnamehash}{d5ce007b1d3daab730ea7184e97ca701}
+      \strng{authornamehash}{d5ce007b1d3daab730ea7184e97ca701}
+      \strng{authorfullhash}{d5ce007b1d3daab730ea7184e97ca701}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{25th Int. Society for Music Information Retrieval Conference}
-      \field{month}{9}
-      \field{note}{arXiv:2409.03055 [cs]}
-      \field{title}{SymPAC: Scalable Symbolic Music Generation With Prompts And Constraints}
-      \field{year}{2024}
-      \verb{doi}
-      \verb 10.48550/arXiv.2409.03055
-      \endverb
+      \field{booktitle}{Proc. of 21st International Society of Music Information Retrieval Conference, ISMIR 2020}
+      \field{title}{Music FaderNets: Controllable Music Generation Based On High-Level Features via Low-Level Feature Modelling}
+      \field{year}{2020}
       \verb{urlraw}
-      \verb http://arxiv.org/abs/2409.03055
+      \verb https://www.researchgate.net/publication/343500818_Music_FaderNets_Controllable_Music_Generation_Based_On_High-Level_Features_via_Low-Level_Feature_Modelling
       \endverb
       \verb{url}
-      \verb http://arxiv.org/abs/2409.03055
+      \verb https://www.researchgate.net/publication/343500818_Music_FaderNets_Controllable_Music_Generation_Based_On_High-Level_Features_via_Low-Level_Feature_Modelling
       \endverb
     \endentry
-    \entry{Kingma_Welling_2014}{inproceedings}{}
+    \entry{Ens_Pasquier_2020_MMM}{article}{}
       \name{author}{2}{}{%
-        {{hash=b6fbd171848aad4edf3925543f1f1522}{%
-           family={Kingma},
-           familyi={K\bibinitperiod},
-           given={Diederik\bibnamedelima P.},
-           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
-        {{hash=53d2880ad8047b61cdae2c6b2803e763}{%
-           family={Welling},
-           familyi={W\bibinitperiod},
-           given={Max},
-           giveni={M\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {arXiv}%
-      }
-      \strng{namehash}{aabdd5db7a1ed298b1dfb6824d032c66}
-      \strng{fullhash}{aabdd5db7a1ed298b1dfb6824d032c66}
-      \strng{bibnamehash}{aabdd5db7a1ed298b1dfb6824d032c66}
-      \strng{authorbibnamehash}{aabdd5db7a1ed298b1dfb6824d032c66}
-      \strng{authornamehash}{aabdd5db7a1ed298b1dfb6824d032c66}
-      \strng{authorfullhash}{aabdd5db7a1ed298b1dfb6824d032c66}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{International Conference on Learning Representations (ICLR)}
-      \field{note}{arXiv:1312.6114 [stat]}
-      \field{title}{Auto-Encoding Variational Bayes}
-      \field{year}{2014}
-      \verb{doi}
-      \verb 10.48550/arXiv.1312.6114
-      \endverb
-      \verb{urlraw}
-      \verb http://arxiv.org/abs/1312.6114
-      \endverb
-      \verb{url}
-      \verb http://arxiv.org/abs/1312.6114
-      \endverb
-    \endentry
-    \entry{Défossez_2023_encodec}{article}{}
-      \name{author}{4}{}{%
-        {{hash=5dbeaae01b9f285b48c87885d9e41e8d}{%
-           family={Défossez},
-           familyi={D\bibinitperiod},
-           given={Alexandre},
-           giveni={A\bibinitperiod}}}%
-        {{hash=754f41410033ef892e9ec8406be562b1}{%
-           family={Copet},
-           familyi={C\bibinitperiod},
-           given={Jade},
+        {{hash=27f4f6dc6c109424486e796156aa4808}{%
+           family={Ens},
+           familyi={E\bibinitperiod},
+           given={Jeff},
            giveni={J\bibinitperiod}}}%
-        {{hash=a345e20a460089c920bb74098ed450db}{%
-           family={Synnaeve},
-           familyi={S\bibinitperiod},
-           given={Gabriel},
-           giveni={G\bibinitperiod}}}%
-        {{hash=b524686c039bdbe0e8cca661fca6b56c}{%
-           family={Adi},
-           familyi={A\bibinitperiod},
-           given={Yossi},
-           giveni={Y\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{33e73d8e53db526a4abce9faef735d36}
-      \strng{fullhash}{27fb12883a67746f36c09144dde46579}
-      \strng{bibnamehash}{27fb12883a67746f36c09144dde46579}
-      \strng{authorbibnamehash}{27fb12883a67746f36c09144dde46579}
-      \strng{authornamehash}{33e73d8e53db526a4abce9faef735d36}
-      \strng{authorfullhash}{27fb12883a67746f36c09144dde46579}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Transactions on Machine Learning Research}
-      \field{note}{arXiv:2210.13438 [eess]}
-      \field{title}{High Fidelity Neural Audio Compression}
-      \field{year}{2023}
-      \verb{doi}
-      \verb 10.48550/arXiv.2210.13438
-      \endverb
-      \verb{urlraw}
-      \verb http://arxiv.org/abs/2210.13438
-      \endverb
-      \verb{url}
-      \verb http://arxiv.org/abs/2210.13438
-      \endverb
-    \endentry
-    \entry{Zhu_Liu_Jiang_Zheng_texture_2024}{article}{}
-      \name{author}{4}{}{%
-        {{hash=57d5b3d653f1f5c9d915315a4e84a5a2}{%
-           family={Zhu},
-           familyi={Z\bibinitperiod},
-           given={Tingyu},
-           giveni={T\bibinitperiod}}}%
-        {{hash=4593f1210289b0082e564f6a773f97cd}{%
-           family={Liu},
-           familyi={L\bibinitperiod},
-           given={Haoyu},
-           giveni={H\bibinitperiod}}}%
-        {{hash=32ceefd4aa9983a75b1876a2483bb4e4}{%
-           family={Jiang},
-           familyi={J\bibinitperiod},
-           given={Zhimin},
-           giveni={Z\bibinitperiod}}}%
-        {{hash=eab311bac27bfd4d97008d3e3c762cf0}{%
-           family={Zheng},
-           familyi={Z\bibinitperiod},
-           given={Zeyu},
-           giveni={Z\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
+        {{hash=98a4249d5bf6edf5cb5809788bd84b51}{%
+           family={Pasquier},
+           familyi={P\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
         {arXiv}%
       }
-      \strng{namehash}{2a374fd6ebfa721bac54cf1bde2e09f5}
-      \strng{fullhash}{88e169b491e820f6a9c9c29c954553ad}
-      \strng{bibnamehash}{88e169b491e820f6a9c9c29c954553ad}
-      \strng{authorbibnamehash}{88e169b491e820f6a9c9c29c954553ad}
-      \strng{authornamehash}{2a374fd6ebfa721bac54cf1bde2e09f5}
-      \strng{authorfullhash}{88e169b491e820f6a9c9c29c954553ad}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \strng{namehash}{66e26df9435a8cda6da4747b91e513f2}
+      \strng{fullhash}{66e26df9435a8cda6da4747b91e513f2}
+      \strng{bibnamehash}{66e26df9435a8cda6da4747b91e513f2}
+      \strng{authorbibnamehash}{66e26df9435a8cda6da4747b91e513f2}
+      \strng{authornamehash}{66e26df9435a8cda6da4747b91e513f2}
+      \strng{authorfullhash}{66e26df9435a8cda6da4747b91e513f2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{arXiv}
-      \field{month}{10}
-      \field{note}{arXiv:2410.08435 [cs]}
-      \field{number}{arXiv:2410.08435}
-      \field{title}{Symbolic Music Generation with Fine-grained Interactive Textural Guidance}
-      \field{year}{2024}
+      \field{month}{8}
+      \field{note}{arXiv:2008.06048 [cs]}
+      \field{number}{arXiv:2008.06048}
+      \field{title}{MMM: Exploring Conditional Multi-Track Music Generation with the Transformer}
+      \field{year}{2020}
       \verb{doi}
-      \verb 10.48550/arXiv.2410.08435
+      \verb 10.48550/arXiv.2008.06048
       \endverb
       \verb{urlraw}
-      \verb http://arxiv.org/abs/2410.08435
+      \verb http://arxiv.org/abs/2008.06048
       \endverb
       \verb{url}
-      \verb http://arxiv.org/abs/2410.08435
+      \verb http://arxiv.org/abs/2008.06048
       \endverb
     \endentry
-    \entry{Fradet_Briot_Chhel_2021}{article}{}
-      \name{author}{3}{}{%
-        {{hash=7fc06a7b7d8a508968c9ed9ac0d65fb2}{%
-           family={Fradet},
-           familyi={F\bibinitperiod},
-           given={Nathan},
-           giveni={N\bibinitperiod}}}%
-        {{hash=84898617ee952f11d2b52ff06b3661f4}{%
-           family={Briot},
-           familyi={B\bibinitperiod},
-           given={Jean-Pierre},
-           giveni={J\bibinithyphendelim P\bibinitperiod}}}%
-        {{hash=53f77762e5abe192dea2d9cf99ffe263}{%
-           family={Chhel},
-           familyi={C\bibinitperiod},
-           given={Fabien},
-           giveni={F\bibinitperiod}}}%
+    \entry{Raffel_2016}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=81a5a94e2388c149a73a86381db45e07}{%
+           family={Raffel},
+           familyi={R\bibinitperiod},
+           given={Colin},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Columbia University}%
       }
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{4e599b9d55bc6e33134fbbd59da31238}
-      \strng{fullhash}{4e599b9d55bc6e33134fbbd59da31238}
-      \strng{bibnamehash}{4e599b9d55bc6e33134fbbd59da31238}
-      \strng{authorbibnamehash}{4e599b9d55bc6e33134fbbd59da31238}
-      \strng{authornamehash}{4e599b9d55bc6e33134fbbd59da31238}
-      \strng{authorfullhash}{4e599b9d55bc6e33134fbbd59da31238}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \strng{namehash}{81a5a94e2388c149a73a86381db45e07}
+      \strng{fullhash}{81a5a94e2388c149a73a86381db45e07}
+      \strng{bibnamehash}{81a5a94e2388c149a73a86381db45e07}
+      \strng{authorbibnamehash}{81a5a94e2388c149a73a86381db45e07}
+      \strng{authornamehash}{81a5a94e2388c149a73a86381db45e07}
+      \strng{authorfullhash}{81a5a94e2388c149a73a86381db45e07}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Extended Abstracts for the Late-Breaking Demo Session of the 22nd International Society for Music Information Retrieval Conference (ISMIR 2021)}
-      \field{title}{MIDITOK: A PYTHON PACKAGE FOR MIDI FILE TOKENIZATION}
-      \field{year}{2021}
+      \field{title}{Learning-Based Methods for Comparing Sequences, with Applications to Audio-to-MIDI Alignment and Matching}
+      \field{type}{phdthesis}
+      \field{year}{2016}
     \endentry
     \entry{Huang_Yang_remi_pop_transformer_2020}{inproceedings}{}
       \name{author}{2}{}{%
@@ -3283,52 +3286,190 @@
       \verb https://doi.org/10.1145/3394171.3413671
       \endverb
     \endentry
-    \entry{Ryu_Dong_nested_2024}{inproceedings}{}
-      \name{author}{4}{}{%
-        {{hash=5b183227b200b63f1002055feae17192}{%
-           family={Ryu},
-           familyi={R\bibinitperiod},
-           given={Jiwoo},
-           giveni={J\bibinitperiod}}}%
-        {{hash=6751443f76464a3da827b0d4a72d67c2}{%
-           family={Dong},
-           familyi={D\bibinitperiod},
-           given={Hao-Wen},
-           giveni={H\bibinithyphendelim W\bibinitperiod}}}%
-        {{hash=7a8d3e6277921bb223a1c67d0b43b127}{%
-           family={Jung},
-           familyi={J\bibinitperiod},
-           given={Jongmin},
-           giveni={J\bibinitperiod}}}%
-        {{hash=ef49ff05b4ba392562c64a1ad13cbafb}{%
-           family={Jeong},
-           familyi={J\bibinitperiod},
-           given={Dasaem},
-           giveni={D\bibinitperiod}}}%
+    \entry{Yu_Lu_Wang_Hu_Tan_Ye_Zhang_museformer_2022}{inproceedings}{}
+      \name{author}{9}{}{%
+        {{hash=475a56d72ff2a2993645f8bc837ef474}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Botao},
+           giveni={B\bibinitperiod}}}%
+        {{hash=337b739be2db84d26026c52d50fd8341}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Peiling},
+           giveni={P\bibinitperiod}}}%
+        {{hash=9a8e37c2db183faff113a94a5dbc4914}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Rui},
+           giveni={R\bibinitperiod}}}%
+        {{hash=0b61e9661067d0a906cff8be51415c72}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod}}}%
+        {{hash=88c58ea43b71cda8e83ddf1181a534ce}{%
+           family={Tan},
+           familyi={T\bibinitperiod},
+           given={Xu},
+           giveni={X\bibinitperiod}}}%
+        {{hash=63a55b19037469d2b14dfb896fe22148}{%
+           family={Ye},
+           familyi={Y\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod}}}%
+        {{hash=adee827d422f83e250ad82477211f997}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Shikun},
+           giveni={S\bibinitperiod}}}%
+        {{hash=5588f729660dbe4dbf5af3850f858ae3}{%
+           family={Qin},
+           familyi={Q\bibinitperiod},
+           given={Tao},
+           giveni={T\bibinitperiod}}}%
+        {{hash=716b89cbb7332599ebb33cc58a52f648}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Tie-Yan},
+           giveni={T\bibinithyphendelim Y\bibinitperiod}}}%
       }
-      \strng{namehash}{c679f7603884d318900a89e4a75b2392}
-      \strng{fullhash}{67d76484d18d4c56038de98d73e63746}
-      \strng{bibnamehash}{67d76484d18d4c56038de98d73e63746}
-      \strng{authorbibnamehash}{67d76484d18d4c56038de98d73e63746}
-      \strng{authornamehash}{c679f7603884d318900a89e4a75b2392}
-      \strng{authorfullhash}{67d76484d18d4c56038de98d73e63746}
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{11b2f78b694271dbe36aaa5edb9628b9}
+      \strng{fullhash}{8027c3304b38b9322819736caa6e2fc2}
+      \strng{bibnamehash}{11b2f78b694271dbe36aaa5edb9628b9}
+      \strng{authorbibnamehash}{11b2f78b694271dbe36aaa5edb9628b9}
+      \strng{authornamehash}{11b2f78b694271dbe36aaa5edb9628b9}
+      \strng{authorfullhash}{8027c3304b38b9322819736caa6e2fc2}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{25th Int. Society for Music Information Retrieval Conference (ISMIR 2024)}
-      \field{month}{8}
-      \field{note}{arXiv:2408.01180 [cs]}
-      \field{title}{Nested Music Transformer: Sequentially Decoding Compound Tokens in Symbolic Music and Audio Generation}
-      \field{year}{2024}
+      \field{booktitle}{Thirty-sixth Conference on Neural Information Processing Systems (NeurIPS 2022)}
+      \field{month}{10}
+      \field{note}{arXiv:2210.10349 [cs]}
+      \field{title}{Museformer: Transformer with Fine- and Coarse-Grained Attention for Music Generation}
+      \field{year}{2022}
       \verb{doi}
-      \verb 10.48550/arXiv.2408.01180
+      \verb 10.48550/arXiv.2210.10349
       \endverb
       \verb{urlraw}
-      \verb http://arxiv.org/abs/2408.01180
+      \verb http://arxiv.org/abs/2210.10349
       \endverb
       \verb{url}
-      \verb http://arxiv.org/abs/2408.01180
+      \verb http://arxiv.org/abs/2210.10349
+      \endverb
+    \endentry
+    \entry{Wang_Chen_pop90_dataset}{inproceedings}{}
+      \name{author}{8}{}{%
+        {{hash=05bc8d503a2c310ef0976ace7f9d2734}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Ziyu},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=89000e53e1b796d08aec88db79b94714}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Ke},
+           giveni={K\bibinitperiod}}}%
+        {{hash=b33717bc555fc7091aee0f02c4302693}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Junyan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a41540d5972b60f35aa9034b3fe307c3}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yiyi},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=0839eb9251a2bc12130ded755bd673ef}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Maoran},
+           giveni={M\bibinitperiod}}}%
+        {{hash=08b6dcd7ff3a1bb27ed0031f9d0ac29b}{%
+           family={Dai},
+           familyi={D\bibinitperiod},
+           given={Shuqi},
+           giveni={S\bibinitperiod}}}%
+        {{hash=68f5d9a39b85aad91c1bc96245774618}{%
+           family={Gu},
+           familyi={G\bibinitperiod},
+           given={Xianbin},
+           giveni={X\bibinitperiod}}}%
+        {{hash=6e9f68df530fffccf13056f4d359fb7e}{%
+           family={Xia},
+           familyi={X\bibinitperiod},
+           given={Gus},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{1b1c647aa5353464f41f3a8c801eee31}
+      \strng{fullhash}{8d37b0d34f29fe3d9a93f9f9b0bfb101}
+      \strng{bibnamehash}{1b1c647aa5353464f41f3a8c801eee31}
+      \strng{authorbibnamehash}{1b1c647aa5353464f41f3a8c801eee31}
+      \strng{authornamehash}{1b1c647aa5353464f41f3a8c801eee31}
+      \strng{authorfullhash}{8d37b0d34f29fe3d9a93f9f9b0bfb101}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{21st International Conference on Music Information Retrieval (ISMIR 2020)}
+      \field{title}{POP909: A POP-SONG DATASET FOR MUSIC ARRANGEMENT GENERATION}
+      \field{year}{2020}
+    \endentry
+    \entry{Rütte_figaro_2023}{article}{}
+      \name{author}{4}{}{%
+        {{hash=75c17db78d5370a525e9db483e8fcc5f}{%
+           family={Rütte},
+           familyi={R\bibinitperiod},
+           given={Dimitri\bibnamedelima von},
+           giveni={D\bibinitperiod\bibinitdelim v\bibinitperiod}}}%
+        {{hash=78f65f9ceecb5e4aeed3005300b8b650}{%
+           family={Biggio},
+           familyi={B\bibinitperiod},
+           given={Luca},
+           giveni={L\bibinitperiod}}}%
+        {{hash=de0012ef8f2b540fa5af8558e8144001}{%
+           family={Kilcher},
+           familyi={K\bibinitperiod},
+           given={Yannic},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=ee42cfed2ff3020233d2de97c356eaee}{%
+           family={Hofmann},
+           familyi={H\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{01378ba23f0cf60c418843d0cd6734eb}
+      \strng{fullhash}{a116ff5fa0301c68cbf99b371f21f768}
+      \strng{bibnamehash}{a116ff5fa0301c68cbf99b371f21f768}
+      \strng{authorbibnamehash}{a116ff5fa0301c68cbf99b371f21f768}
+      \strng{authornamehash}{01378ba23f0cf60c418843d0cd6734eb}
+      \strng{authorfullhash}{a116ff5fa0301c68cbf99b371f21f768}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Conference on Learning Representations}
+      \field{note}{arXiv:2201.10936}
+      \field{title}{FIGARO: Generating Symbolic Music with Fine-Grained Artistic Control}
+      \field{year}{2023}
+      \verb{doi}
+      \verb 10.48550/arXiv.2201.10936
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2201.10936
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2201.10936
       \endverb
     \endentry
     \entry{Dong_Chen_MMT_Kirkpatrick_2023}{inproceedings}{}
@@ -3386,6 +3527,599 @@
       \verb{url}
       \verb http://arxiv.org/abs/2207.06983
       \endverb
+    \endentry
+    \entry{Crestel_OrchestralDataset}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=1dc64ca817095e1466dd42fbf9fb9811}{%
+           family={Crestel},
+           familyi={C\bibinitperiod},
+           given={Léopold},
+           giveni={L\bibinitperiod}}}%
+        {{hash=1ba6fef87fc57f035fe0ecbd7e5f4e75}{%
+           family={Esling},
+           familyi={E\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod}}}%
+        {{hash=1f8c9b316fb523a81487225198354e81}{%
+           family={Heng},
+           familyi={H\bibinitperiod},
+           given={Lena},
+           giveni={L\bibinitperiod}}}%
+        {{hash=617f00228ac08263e76626ceead8c60e}{%
+           family={McAdams},
+           familyi={M\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Suzhou, China}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{1acd4a3499b28c3aa268ba67940c8b70}
+      \strng{fullhash}{0718aea9536a4e44d2b0f50fb3c351f9}
+      \strng{bibnamehash}{0718aea9536a4e44d2b0f50fb3c351f9}
+      \strng{authorbibnamehash}{0718aea9536a4e44d2b0f50fb3c351f9}
+      \strng{authornamehash}{1acd4a3499b28c3aa268ba67940c8b70}
+      \strng{authorfullhash}{0718aea9536a4e44d2b0f50fb3c351f9}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{18th International Society for Music Information Retrieval Conference}
+      \field{month}{10}
+      \field{note}{arXiv:1810.08611 [cs]}
+      \field{title}{A database linking piano and orchestral MIDI scores with application to automatic projective orchestration}
+      \field{year}{2018}
+      \verb{doi}
+      \verb 10.48550/arXiv.1810.08611
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1810.08611
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1810.08611
+      \endverb
+    \endentry
+    \entry{Chen_Smith_Spijkervet_Wang_Zou_Li_Kong_Du_2024}{inproceedings}{}
+      \name{author}{8}{}{%
+        {{hash=5aaf76b42312672cce68f13a4b42e59d}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Haonan},
+           giveni={H\bibinitperiod}}}%
+        {{hash=d9f35d783161ee36fa3f85daada549a5}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Jordan\bibnamedelimb B.\bibnamedelimi L.},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=b758aa866f147f69df7e26dbc0ab2fba}{%
+           family={Spijkervet},
+           familyi={S\bibinitperiod},
+           given={Janne},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f0f763ff340d5931cec66f877b353286}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Ju-Chiang},
+           giveni={J\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=86c972c8e5c8cc149b48ff78f35ab6c5}{%
+           family={Zou},
+           familyi={Z\bibinitperiod},
+           given={Pei},
+           giveni={P\bibinitperiod}}}%
+        {{hash=18935e8a60e488e0bd6e232a7b3dce64}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Bochen},
+           giveni={B\bibinitperiod}}}%
+        {{hash=ed01687b397aa60f29b0b4e861ac6a2d}{%
+           family={Kong},
+           familyi={K\bibinitperiod},
+           given={Qiuqiang},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=103d0b97306a2a5c1940f7540c3bd49b}{%
+           family={Du},
+           familyi={D\bibinitperiod},
+           given={Xingjian},
+           giveni={X\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {San Fancisco, CA, USA}%
+      }
+      \strng{namehash}{8c5979caacecb6854e882faf2826dc79}
+      \strng{fullhash}{8a4ebd43c783292f1842bb41c5fc576c}
+      \strng{bibnamehash}{8c5979caacecb6854e882faf2826dc79}
+      \strng{authorbibnamehash}{8c5979caacecb6854e882faf2826dc79}
+      \strng{authornamehash}{8c5979caacecb6854e882faf2826dc79}
+      \strng{authorfullhash}{8a4ebd43c783292f1842bb41c5fc576c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{25th Int. Society for Music Information Retrieval Conference}
+      \field{month}{9}
+      \field{note}{arXiv:2409.03055 [cs]}
+      \field{title}{SymPAC: Scalable Symbolic Music Generation With Prompts And Constraints}
+      \field{year}{2024}
+      \verb{doi}
+      \verb 10.48550/arXiv.2409.03055
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2409.03055
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2409.03055
+      \endverb
+    \endentry
+    \entry{Bertin-Mahieux_Ellis_Whitman_Lamere_2011}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=51cf2fed0b4b3042100ea32d9ce3c41e}{%
+           family={Bertin-Mahieux},
+           familyi={B\bibinithyphendelim M\bibinitperiod},
+           given={Thierry},
+           giveni={T\bibinitperiod}}}%
+        {{hash=8c2dba7002458c6a90760f98d2e441f1}{%
+           family={Ellis},
+           familyi={E\bibinitperiod},
+           given={Daniel\bibnamedelima P.W.},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=dac20e999e2524cfd5b5885d028f57b5}{%
+           family={Whitman},
+           familyi={W\bibinitperiod},
+           given={Brian},
+           giveni={B\bibinitperiod}}}%
+        {{hash=9a3c53fbc0e29f2c2a3ffcbcdf37b3ed}{%
+           family={Lamere},
+           familyi={L\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{22ce46e034dda88880400f7e30f1f09a}
+      \strng{fullhash}{fcf616dff7fcb4f32207c3de99f433ee}
+      \strng{bibnamehash}{fcf616dff7fcb4f32207c3de99f433ee}
+      \strng{authorbibnamehash}{fcf616dff7fcb4f32207c3de99f433ee}
+      \strng{authornamehash}{22ce46e034dda88880400f7e30f1f09a}
+      \strng{authorfullhash}{fcf616dff7fcb4f32207c3de99f433ee}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 12th international conference on music information retrieval (ISMIR 2011)}
+      \field{title}{The million song dataset}
+      \field{year}{2011}
+    \endentry
+    \entry{Lu_Xu_Kang_Yu_Xing_Tan_Bian_MuseCoco_2023}{article}{}
+      \name{author}{7}{}{%
+        {{hash=337b739be2db84d26026c52d50fd8341}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Peiling},
+           giveni={P\bibinitperiod}}}%
+        {{hash=b6fc78834b479731029a5edb14fd5de0}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Xin},
+           giveni={X\bibinitperiod}}}%
+        {{hash=70d1bb63ba541702991ae49dd6a91e8d}{%
+           family={Kang},
+           familyi={K\bibinitperiod},
+           given={Chenfei},
+           giveni={C\bibinitperiod}}}%
+        {{hash=475a56d72ff2a2993645f8bc837ef474}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Botao},
+           giveni={B\bibinitperiod}}}%
+        {{hash=6457ea24ae09e57a8bdf3e33cfd97d8d}{%
+           family={Xing},
+           familyi={X\bibinitperiod},
+           given={Chengyi},
+           giveni={C\bibinitperiod}}}%
+        {{hash=88c58ea43b71cda8e83ddf1181a534ce}{%
+           family={Tan},
+           familyi={T\bibinitperiod},
+           given={Xu},
+           giveni={X\bibinitperiod}}}%
+        {{hash=9856bacbe78d7b7b8450e13766f6bce7}{%
+           family={Bian},
+           familyi={B\bibinitperiod},
+           given={Jiang},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{7f1f182e1b6b9a14e51e8d3e6c840860}
+      \strng{fullhash}{a5ed05acb8ddf73bc20d72fac06fcf38}
+      \strng{bibnamehash}{7f1f182e1b6b9a14e51e8d3e6c840860}
+      \strng{authorbibnamehash}{7f1f182e1b6b9a14e51e8d3e6c840860}
+      \strng{authornamehash}{7f1f182e1b6b9a14e51e8d3e6c840860}
+      \strng{authorfullhash}{a5ed05acb8ddf73bc20d72fac06fcf38}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv}
+      \field{month}{5}
+      \field{note}{arXiv:2306.00110 [cs]}
+      \field{number}{arXiv:2306.00110}
+      \field{title}{MuseCoco: Generating Symbolic Music from Text}
+      \field{year}{2023}
+      \verb{doi}
+      \verb 10.48550/arXiv.2306.00110
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2306.00110
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2306.00110
+      \endverb
+    \endentry
+    \entry{Shu_Xu_Musebarcontrol_2024}{article}{}
+      \name{author}{5}{}{%
+        {{hash=155dfa7cd47e985583e9a2896e12293f}{%
+           family={Shu},
+           familyi={S\bibinitperiod},
+           given={Yangyang},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=0a405201a3bab08fbbb6f4137d097b27}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Haiming},
+           giveni={H\bibinitperiod}}}%
+        {{hash=9c2125892a0117c235060cb2bc5bd194}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Ziqin},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=fe8427ffc202d41693ef556d31fbbe6b}{%
+           family={Hengel},
+           familyi={H\bibinitperiod},
+           given={Anton\bibnamedelimb van\bibnamedelima den},
+           giveni={A\bibinitperiod\bibinitdelim v\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+        {{hash=f54dfc8b833af99804c92edf883f3136}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Lingqiao},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{45b4e73cf4e34135ae0f0597357cf5d9}
+      \strng{fullhash}{36f4ec84d0830740546655f8e1a64397}
+      \strng{bibnamehash}{36f4ec84d0830740546655f8e1a64397}
+      \strng{authorbibnamehash}{36f4ec84d0830740546655f8e1a64397}
+      \strng{authornamehash}{45b4e73cf4e34135ae0f0597357cf5d9}
+      \strng{authorfullhash}{36f4ec84d0830740546655f8e1a64397}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv}
+      \field{month}{7}
+      \field{note}{arXiv:2407.04331 [cs]}
+      \field{number}{arXiv:2407.04331}
+      \field{title}{MuseBarControl: Enhancing Fine-Grained Control in Symbolic Music Generation through Pre-Training and Counterfactual Loss}
+      \field{year}{2024}
+      \verb{doi}
+      \verb 10.48550/arXiv.2407.04331
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2407.04331
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2407.04331
+      \endverb
+    \endentry
+    \entry{Ryu_Dong_nested_2024}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=5b183227b200b63f1002055feae17192}{%
+           family={Ryu},
+           familyi={R\bibinitperiod},
+           given={Jiwoo},
+           giveni={J\bibinitperiod}}}%
+        {{hash=6751443f76464a3da827b0d4a72d67c2}{%
+           family={Dong},
+           familyi={D\bibinitperiod},
+           given={Hao-Wen},
+           giveni={H\bibinithyphendelim W\bibinitperiod}}}%
+        {{hash=7a8d3e6277921bb223a1c67d0b43b127}{%
+           family={Jung},
+           familyi={J\bibinitperiod},
+           given={Jongmin},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ef49ff05b4ba392562c64a1ad13cbafb}{%
+           family={Jeong},
+           familyi={J\bibinitperiod},
+           given={Dasaem},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{c679f7603884d318900a89e4a75b2392}
+      \strng{fullhash}{67d76484d18d4c56038de98d73e63746}
+      \strng{bibnamehash}{67d76484d18d4c56038de98d73e63746}
+      \strng{authorbibnamehash}{67d76484d18d4c56038de98d73e63746}
+      \strng{authornamehash}{c679f7603884d318900a89e4a75b2392}
+      \strng{authorfullhash}{67d76484d18d4c56038de98d73e63746}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{25th Int. Society for Music Information Retrieval Conference (ISMIR 2024)}
+      \field{month}{8}
+      \field{note}{arXiv:2408.01180 [cs]}
+      \field{title}{Nested Music Transformer: Sequentially Decoding Compound Tokens in Symbolic Music and Audio Generation}
+      \field{year}{2024}
+      \verb{doi}
+      \verb 10.48550/arXiv.2408.01180
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2408.01180
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2408.01180
+      \endverb
+    \endentry
+    \entry{Zhu_Liu_Jiang_Zheng_texture_2024}{article}{}
+      \name{author}{4}{}{%
+        {{hash=57d5b3d653f1f5c9d915315a4e84a5a2}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Tingyu},
+           giveni={T\bibinitperiod}}}%
+        {{hash=4593f1210289b0082e564f6a773f97cd}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Haoyu},
+           giveni={H\bibinitperiod}}}%
+        {{hash=32ceefd4aa9983a75b1876a2483bb4e4}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Zhimin},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=eab311bac27bfd4d97008d3e3c762cf0}{%
+           family={Zheng},
+           familyi={Z\bibinitperiod},
+           given={Zeyu},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{2a374fd6ebfa721bac54cf1bde2e09f5}
+      \strng{fullhash}{88e169b491e820f6a9c9c29c954553ad}
+      \strng{bibnamehash}{88e169b491e820f6a9c9c29c954553ad}
+      \strng{authorbibnamehash}{88e169b491e820f6a9c9c29c954553ad}
+      \strng{authornamehash}{2a374fd6ebfa721bac54cf1bde2e09f5}
+      \strng{authorfullhash}{88e169b491e820f6a9c9c29c954553ad}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv}
+      \field{month}{10}
+      \field{note}{arXiv:2410.08435 [cs]}
+      \field{number}{arXiv:2410.08435}
+      \field{title}{Symbolic Music Generation with Fine-grained Interactive Textural Guidance}
+      \field{year}{2024}
+      \verb{doi}
+      \verb 10.48550/arXiv.2410.08435
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2410.08435
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2410.08435
+      \endverb
+    \endentry
+    \entry{Huang_rule_diffusion_2024}{inproceedings}{}
+      \name{author}{9}{}{%
+        {{hash=d11f45cc5b5dbf8270425d93fc77010d}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Yujia},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=d76fe7ab238e95d4949a4f0325dfe2bd}{%
+           family={Ghatare},
+           familyi={G\bibinitperiod},
+           given={Adishree},
+           giveni={A\bibinitperiod}}}%
+        {{hash=38ce0489d439f9914d4fbdc9fc0ae3c1}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Yuanzhe},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=6190b4a909d3d307a717b550d6d03f23}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Ziniu},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=5d846d75300b477d3a08da3bb2f4edcc}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Qinsheng},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=5889eeb7ae0958c72828494c4a9c91b0}{%
+           family={Sastry},
+           familyi={S\bibinitperiod},
+           given={Chandramouli\bibnamedelima S.},
+           giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=4e8bbfdf1c9d428f3481f68c22e57545}{%
+           family={Gururani},
+           familyi={G\bibinitperiod},
+           given={Siddharth},
+           giveni={S\bibinitperiod}}}%
+        {{hash=619ca3d01db1d2673993591ddf761dbb}{%
+           family={Oore},
+           familyi={O\bibinitperiod},
+           given={Sageev},
+           giveni={S\bibinitperiod}}}%
+        {{hash=d433272a8da287e7d9b17c3f80798a3f}{%
+           family={Yue},
+           familyi={Y\bibinitperiod},
+           given={Yisong},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Vienna, Austria}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{1747ee13d33c603cf152801c90d4ab55}
+      \strng{fullhash}{b93eb3ea926ce6b1f4345d54382c9404}
+      \strng{bibnamehash}{1747ee13d33c603cf152801c90d4ab55}
+      \strng{authorbibnamehash}{1747ee13d33c603cf152801c90d4ab55}
+      \strng{authornamehash}{1747ee13d33c603cf152801c90d4ab55}
+      \strng{authorfullhash}{b93eb3ea926ce6b1f4345d54382c9404}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The Forty-First International Conference on Machine Learning}
+      \field{month}{9}
+      \field{note}{arXiv:2402.14285 [cs]}
+      \field{title}{Symbolic Music Generation with Non-Differentiable Rule Guided Diffusion}
+      \field{year}{2024}
+      \verb{doi}
+      \verb 10.48550/arXiv.2402.14285
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2402.14285
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2402.14285
+      \endverb
+    \endentry
+    \entry{Kingma_Welling_2014}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=b6fbd171848aad4edf3925543f1f1522}{%
+           family={Kingma},
+           familyi={K\bibinitperiod},
+           given={Diederik\bibnamedelima P.},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=53d2880ad8047b61cdae2c6b2803e763}{%
+           family={Welling},
+           familyi={W\bibinitperiod},
+           given={Max},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{aabdd5db7a1ed298b1dfb6824d032c66}
+      \strng{fullhash}{aabdd5db7a1ed298b1dfb6824d032c66}
+      \strng{bibnamehash}{aabdd5db7a1ed298b1dfb6824d032c66}
+      \strng{authorbibnamehash}{aabdd5db7a1ed298b1dfb6824d032c66}
+      \strng{authornamehash}{aabdd5db7a1ed298b1dfb6824d032c66}
+      \strng{authorfullhash}{aabdd5db7a1ed298b1dfb6824d032c66}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{International Conference on Learning Representations (ICLR)}
+      \field{note}{arXiv:1312.6114 [stat]}
+      \field{title}{Auto-Encoding Variational Bayes}
+      \field{year}{2014}
+      \verb{doi}
+      \verb 10.48550/arXiv.1312.6114
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1312.6114
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1312.6114
+      \endverb
+    \endentry
+    \entry{Défossez_2023_encodec}{article}{}
+      \name{author}{4}{}{%
+        {{hash=5dbeaae01b9f285b48c87885d9e41e8d}{%
+           family={Défossez},
+           familyi={D\bibinitperiod},
+           given={Alexandre},
+           giveni={A\bibinitperiod}}}%
+        {{hash=754f41410033ef892e9ec8406be562b1}{%
+           family={Copet},
+           familyi={C\bibinitperiod},
+           given={Jade},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a345e20a460089c920bb74098ed450db}{%
+           family={Synnaeve},
+           familyi={S\bibinitperiod},
+           given={Gabriel},
+           giveni={G\bibinitperiod}}}%
+        {{hash=b524686c039bdbe0e8cca661fca6b56c}{%
+           family={Adi},
+           familyi={A\bibinitperiod},
+           given={Yossi},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{33e73d8e53db526a4abce9faef735d36}
+      \strng{fullhash}{27fb12883a67746f36c09144dde46579}
+      \strng{bibnamehash}{27fb12883a67746f36c09144dde46579}
+      \strng{authorbibnamehash}{27fb12883a67746f36c09144dde46579}
+      \strng{authornamehash}{33e73d8e53db526a4abce9faef735d36}
+      \strng{authorfullhash}{27fb12883a67746f36c09144dde46579}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Transactions on Machine Learning Research}
+      \field{note}{arXiv:2210.13438 [eess]}
+      \field{title}{High Fidelity Neural Audio Compression}
+      \field{year}{2023}
+      \verb{doi}
+      \verb 10.48550/arXiv.2210.13438
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2210.13438
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2210.13438
+      \endverb
+    \endentry
+    \entry{Fradet_Briot_Chhel_2021}{article}{}
+      \name{author}{3}{}{%
+        {{hash=7fc06a7b7d8a508968c9ed9ac0d65fb2}{%
+           family={Fradet},
+           familyi={F\bibinitperiod},
+           given={Nathan},
+           giveni={N\bibinitperiod}}}%
+        {{hash=84898617ee952f11d2b52ff06b3661f4}{%
+           family={Briot},
+           familyi={B\bibinitperiod},
+           given={Jean-Pierre},
+           giveni={J\bibinithyphendelim P\bibinitperiod}}}%
+        {{hash=53f77762e5abe192dea2d9cf99ffe263}{%
+           family={Chhel},
+           familyi={C\bibinitperiod},
+           given={Fabien},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{4e599b9d55bc6e33134fbbd59da31238}
+      \strng{fullhash}{4e599b9d55bc6e33134fbbd59da31238}
+      \strng{bibnamehash}{4e599b9d55bc6e33134fbbd59da31238}
+      \strng{authorbibnamehash}{4e599b9d55bc6e33134fbbd59da31238}
+      \strng{authornamehash}{4e599b9d55bc6e33134fbbd59da31238}
+      \strng{authorfullhash}{4e599b9d55bc6e33134fbbd59da31238}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Extended Abstracts for the Late-Breaking Demo Session of the 22nd International Society for Music Information Retrieval Conference (ISMIR 2021)}
+      \field{title}{MIDITOK: A PYTHON PACKAGE FOR MIDI FILE TOKENIZATION}
+      \field{year}{2021}
     \endentry
     \entry{compound_word_Hsiao_Liu_Yeh_Yang_2021}{inproceedings}{}
       \name{author}{4}{}{%
@@ -3614,159 +4348,6 @@
       \verb 10.2307/767458
       \endverb
     \endentry
-    \entry{Tan_Herremans_2020}{inproceedings}{}
-      \name{author}{2}{}{%
-        {{hash=a9b1e03c8b331f80f52e20aa6cd4cd8a}{%
-           family={Tan},
-           familyi={T\bibinitperiod},
-           given={Hao},
-           giveni={H\bibinitperiod}}}%
-        {{hash=fdae87cad6eeb39b72cfdb074d296c7b}{%
-           family={Herremans},
-           familyi={H\bibinitperiod},
-           given={Dorien},
-           giveni={D\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \list{location}{1}{%
-        {Montreal QC Canada}%
-      }
-      \strng{namehash}{d5ce007b1d3daab730ea7184e97ca701}
-      \strng{fullhash}{d5ce007b1d3daab730ea7184e97ca701}
-      \strng{bibnamehash}{d5ce007b1d3daab730ea7184e97ca701}
-      \strng{authorbibnamehash}{d5ce007b1d3daab730ea7184e97ca701}
-      \strng{authornamehash}{d5ce007b1d3daab730ea7184e97ca701}
-      \strng{authorfullhash}{d5ce007b1d3daab730ea7184e97ca701}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Proc. of 21st International Society of Music Information Retrieval Conference, ISMIR 2020}
-      \field{title}{Music FaderNets: Controllable Music Generation Based On High-Level Features via Low-Level Feature Modelling}
-      \field{year}{2020}
-      \verb{urlraw}
-      \verb https://www.researchgate.net/publication/343500818_Music_FaderNets_Controllable_Music_Generation_Based_On_High-Level_Features_via_Low-Level_Feature_Modelling
-      \endverb
-      \verb{url}
-      \verb https://www.researchgate.net/publication/343500818_Music_FaderNets_Controllable_Music_Generation_Based_On_High-Level_Features_via_Low-Level_Feature_Modelling
-      \endverb
-    \endentry
-    \entry{Rütte_figaro_2023}{article}{}
-      \name{author}{4}{}{%
-        {{hash=75c17db78d5370a525e9db483e8fcc5f}{%
-           family={Rütte},
-           familyi={R\bibinitperiod},
-           given={Dimitri\bibnamedelima von},
-           giveni={D\bibinitperiod\bibinitdelim v\bibinitperiod}}}%
-        {{hash=78f65f9ceecb5e4aeed3005300b8b650}{%
-           family={Biggio},
-           familyi={B\bibinitperiod},
-           given={Luca},
-           giveni={L\bibinitperiod}}}%
-        {{hash=de0012ef8f2b540fa5af8558e8144001}{%
-           family={Kilcher},
-           familyi={K\bibinitperiod},
-           given={Yannic},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=ee42cfed2ff3020233d2de97c356eaee}{%
-           family={Hofmann},
-           familyi={H\bibinitperiod},
-           given={Thomas},
-           giveni={T\bibinitperiod}}}%
-      }
-      \strng{namehash}{01378ba23f0cf60c418843d0cd6734eb}
-      \strng{fullhash}{a116ff5fa0301c68cbf99b371f21f768}
-      \strng{bibnamehash}{a116ff5fa0301c68cbf99b371f21f768}
-      \strng{authorbibnamehash}{a116ff5fa0301c68cbf99b371f21f768}
-      \strng{authornamehash}{01378ba23f0cf60c418843d0cd6734eb}
-      \strng{authorfullhash}{a116ff5fa0301c68cbf99b371f21f768}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{International Conference on Learning Representations}
-      \field{note}{arXiv:2201.10936}
-      \field{title}{FIGARO: Generating Symbolic Music with Fine-Grained Artistic Control}
-      \field{year}{2023}
-      \verb{doi}
-      \verb 10.48550/arXiv.2201.10936
-      \endverb
-      \verb{urlraw}
-      \verb http://arxiv.org/abs/2201.10936
-      \endverb
-      \verb{url}
-      \verb http://arxiv.org/abs/2201.10936
-      \endverb
-    \endentry
-    \entry{Lu_Xu_Kang_Yu_Xing_Tan_Bian_MuseCoco_2023}{article}{}
-      \name{author}{7}{}{%
-        {{hash=337b739be2db84d26026c52d50fd8341}{%
-           family={Lu},
-           familyi={L\bibinitperiod},
-           given={Peiling},
-           giveni={P\bibinitperiod}}}%
-        {{hash=b6fc78834b479731029a5edb14fd5de0}{%
-           family={Xu},
-           familyi={X\bibinitperiod},
-           given={Xin},
-           giveni={X\bibinitperiod}}}%
-        {{hash=70d1bb63ba541702991ae49dd6a91e8d}{%
-           family={Kang},
-           familyi={K\bibinitperiod},
-           given={Chenfei},
-           giveni={C\bibinitperiod}}}%
-        {{hash=475a56d72ff2a2993645f8bc837ef474}{%
-           family={Yu},
-           familyi={Y\bibinitperiod},
-           given={Botao},
-           giveni={B\bibinitperiod}}}%
-        {{hash=6457ea24ae09e57a8bdf3e33cfd97d8d}{%
-           family={Xing},
-           familyi={X\bibinitperiod},
-           given={Chengyi},
-           giveni={C\bibinitperiod}}}%
-        {{hash=88c58ea43b71cda8e83ddf1181a534ce}{%
-           family={Tan},
-           familyi={T\bibinitperiod},
-           given={Xu},
-           giveni={X\bibinitperiod}}}%
-        {{hash=9856bacbe78d7b7b8450e13766f6bce7}{%
-           family={Bian},
-           familyi={B\bibinitperiod},
-           given={Jiang},
-           giveni={J\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {arXiv}%
-      }
-      \strng{namehash}{7f1f182e1b6b9a14e51e8d3e6c840860}
-      \strng{fullhash}{a5ed05acb8ddf73bc20d72fac06fcf38}
-      \strng{bibnamehash}{7f1f182e1b6b9a14e51e8d3e6c840860}
-      \strng{authorbibnamehash}{7f1f182e1b6b9a14e51e8d3e6c840860}
-      \strng{authornamehash}{7f1f182e1b6b9a14e51e8d3e6c840860}
-      \strng{authorfullhash}{a5ed05acb8ddf73bc20d72fac06fcf38}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{arXiv}
-      \field{month}{5}
-      \field{note}{arXiv:2306.00110 [cs]}
-      \field{number}{arXiv:2306.00110}
-      \field{title}{MuseCoco: Generating Symbolic Music from Text}
-      \field{year}{2023}
-      \verb{doi}
-      \verb 10.48550/arXiv.2306.00110
-      \endverb
-      \verb{urlraw}
-      \verb http://arxiv.org/abs/2306.00110
-      \endverb
-      \verb{url}
-      \verb http://arxiv.org/abs/2306.00110
-      \endverb
-    \endentry
     \entry{Wu_Donahue_musicontrolnet_2023}{article}{}
       \name{author}{4}{}{%
         {{hash=2017debfb60abbe80923fb148d3fb06e}{%
@@ -3982,85 +4563,6 @@
       \endverb
       \verb{url}
       \verb http://arxiv.org/abs/2406.10970
-      \endverb
-    \endentry
-    \entry{Huang_rule_diffusion_2024}{inproceedings}{}
-      \name{author}{9}{}{%
-        {{hash=d11f45cc5b5dbf8270425d93fc77010d}{%
-           family={Huang},
-           familyi={H\bibinitperiod},
-           given={Yujia},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=d76fe7ab238e95d4949a4f0325dfe2bd}{%
-           family={Ghatare},
-           familyi={G\bibinitperiod},
-           given={Adishree},
-           giveni={A\bibinitperiod}}}%
-        {{hash=38ce0489d439f9914d4fbdc9fc0ae3c1}{%
-           family={Liu},
-           familyi={L\bibinitperiod},
-           given={Yuanzhe},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=6190b4a909d3d307a717b550d6d03f23}{%
-           family={Hu},
-           familyi={H\bibinitperiod},
-           given={Ziniu},
-           giveni={Z\bibinitperiod}}}%
-        {{hash=5d846d75300b477d3a08da3bb2f4edcc}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Qinsheng},
-           giveni={Q\bibinitperiod}}}%
-        {{hash=5889eeb7ae0958c72828494c4a9c91b0}{%
-           family={Sastry},
-           familyi={S\bibinitperiod},
-           given={Chandramouli\bibnamedelima S.},
-           giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-        {{hash=4e8bbfdf1c9d428f3481f68c22e57545}{%
-           family={Gururani},
-           familyi={G\bibinitperiod},
-           given={Siddharth},
-           giveni={S\bibinitperiod}}}%
-        {{hash=619ca3d01db1d2673993591ddf761dbb}{%
-           family={Oore},
-           familyi={O\bibinitperiod},
-           given={Sageev},
-           giveni={S\bibinitperiod}}}%
-        {{hash=d433272a8da287e7d9b17c3f80798a3f}{%
-           family={Yue},
-           familyi={Y\bibinitperiod},
-           given={Yisong},
-           giveni={Y\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Vienna, Austria}%
-      }
-      \list{publisher}{1}{%
-        {arXiv}%
-      }
-      \strng{namehash}{1747ee13d33c603cf152801c90d4ab55}
-      \strng{fullhash}{b93eb3ea926ce6b1f4345d54382c9404}
-      \strng{bibnamehash}{1747ee13d33c603cf152801c90d4ab55}
-      \strng{authorbibnamehash}{1747ee13d33c603cf152801c90d4ab55}
-      \strng{authornamehash}{1747ee13d33c603cf152801c90d4ab55}
-      \strng{authorfullhash}{b93eb3ea926ce6b1f4345d54382c9404}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{The Forty-First International Conference on Machine Learning}
-      \field{month}{9}
-      \field{note}{arXiv:2402.14285 [cs]}
-      \field{title}{Symbolic Music Generation with Non-Differentiable Rule Guided Diffusion}
-      \field{year}{2024}
-      \verb{doi}
-      \verb 10.48550/arXiv.2402.14285
-      \endverb
-      \verb{urlraw}
-      \verb http://arxiv.org/abs/2402.14285
-      \endverb
-      \verb{url}
-      \verb http://arxiv.org/abs/2402.14285
       \endverb
     \endentry
     \entry{Wang_vae_chord_rhythm_2020}{inproceedings}{}
@@ -4457,8 +4959,8 @@
       \strng{authorbibnamehash}{c29813e405c3e7d1ddbfa043608c56ba}
       \strng{authornamehash}{c29813e405c3e7d1ddbfa043608c56ba}
       \strng{authorfullhash}{c29813e405c3e7d1ddbfa043608c56ba}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{HCMIR23: 2nd Workshop on Human-Centric Music Information Research)}
@@ -4507,8 +5009,8 @@
       \strng{authorbibnamehash}{481b9e0ab46a628b99b856491ff84ee5}
       \strng{authornamehash}{ca613fc16b6606a3dfc1f431f0bf2276}
       \strng{authorfullhash}{481b9e0ab46a628b99b856491ff84ee5}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{25th Int. Society for Music Information Retrieval Conference}
@@ -4524,63 +5026,6 @@
       \endverb
       \verb{url}
       \verb http://arxiv.org/abs/2407.12563
-      \endverb
-    \endentry
-    \entry{Shu_Xu_Musebarcontrol_2024}{article}{}
-      \name{author}{5}{}{%
-        {{hash=155dfa7cd47e985583e9a2896e12293f}{%
-           family={Shu},
-           familyi={S\bibinitperiod},
-           given={Yangyang},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=0a405201a3bab08fbbb6f4137d097b27}{%
-           family={Xu},
-           familyi={X\bibinitperiod},
-           given={Haiming},
-           giveni={H\bibinitperiod}}}%
-        {{hash=9c2125892a0117c235060cb2bc5bd194}{%
-           family={Zhou},
-           familyi={Z\bibinitperiod},
-           given={Ziqin},
-           giveni={Z\bibinitperiod}}}%
-        {{hash=fe8427ffc202d41693ef556d31fbbe6b}{%
-           family={Hengel},
-           familyi={H\bibinitperiod},
-           given={Anton\bibnamedelimb van\bibnamedelima den},
-           giveni={A\bibinitperiod\bibinitdelim v\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
-        {{hash=f54dfc8b833af99804c92edf883f3136}{%
-           family={Liu},
-           familyi={L\bibinitperiod},
-           given={Lingqiao},
-           giveni={L\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {arXiv}%
-      }
-      \strng{namehash}{45b4e73cf4e34135ae0f0597357cf5d9}
-      \strng{fullhash}{36f4ec84d0830740546655f8e1a64397}
-      \strng{bibnamehash}{36f4ec84d0830740546655f8e1a64397}
-      \strng{authorbibnamehash}{36f4ec84d0830740546655f8e1a64397}
-      \strng{authornamehash}{45b4e73cf4e34135ae0f0597357cf5d9}
-      \strng{authorfullhash}{36f4ec84d0830740546655f8e1a64397}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{arXiv}
-      \field{month}{7}
-      \field{note}{arXiv:2407.04331 [cs]}
-      \field{number}{arXiv:2407.04331}
-      \field{title}{MuseBarControl: Enhancing Fine-Grained Control in Symbolic Music Generation through Pre-Training and Counterfactual Loss}
-      \field{year}{2024}
-      \verb{doi}
-      \verb 10.48550/arXiv.2407.04331
-      \endverb
-      \verb{urlraw}
-      \verb http://arxiv.org/abs/2407.04331
-      \endverb
-      \verb{url}
-      \verb http://arxiv.org/abs/2407.04331
       \endverb
     \endentry
     \entry{Koo_Wichern_Germain_SMITIN_2024}{article}{}
@@ -4617,8 +5062,8 @@
       \strng{authorbibnamehash}{962f96d9315e3cc4932a517c35dd7a16}
       \strng{authornamehash}{e4cb78985ec9ca2afab461914fafc28a}
       \strng{authorfullhash}{962f96d9315e3cc4932a517c35dd7a16}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE Open Journal of Signal Processing 2025}
@@ -4635,6 +5080,53 @@
       \verb{url}
       \verb http://arxiv.org/abs/2404.02252
       \endverb
+    \endentry
+    \entry{language_guide_rutte_2024}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=75c17db78d5370a525e9db483e8fcc5f}{%
+           family={Rütte},
+           familyi={R\bibinitperiod},
+           given={Dimitri},
+           giveni={D\bibinitperiod},
+           prefix={von},
+           prefixi={v\bibinitperiod}}}%
+        {{hash=24f75abd86e1f45869a4d215d1ed65dc}{%
+           family={Anagnostidis},
+           familyi={A\bibinitperiod},
+           given={Sotiris},
+           giveni={S\bibinitperiod}}}%
+        {{hash=98a2abed0f78f10192f88bd557f4228e}{%
+           family={Bachmann},
+           familyi={B\bibinitperiod},
+           given={Gregor},
+           giveni={G\bibinitperiod}}}%
+        {{hash=ee42cfed2ff3020233d2de97c356eaee}{%
+           family={Hofmann},
+           familyi={H\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Vienna, Austria}%
+      }
+      \list{publisher}{1}{%
+        {JMLR.org}%
+      }
+      \strng{namehash}{97301552f5385a13e3cf3cd7c2217399}
+      \strng{fullhash}{1f366bec7dad06f050b5f7d2ff09daa9}
+      \strng{bibnamehash}{1f366bec7dad06f050b5f7d2ff09daa9}
+      \strng{authorbibnamehash}{1f366bec7dad06f050b5f7d2ff09daa9}
+      \strng{authornamehash}{97301552f5385a13e3cf3cd7c2217399}
+      \strng{authorfullhash}{1f366bec7dad06f050b5f7d2ff09daa9}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Concept guidance has emerged as a cheap and simple way to control the behavior of language models by probing their hidden representations for concept vectors and using them to perturb activations at inference time. While the focus of previous work has largely been on truthfulness, in this paper we extend this framework to a richer set of concepts such as appropriateness, humor, creativity and quality, and explore to what degree current detection and guidance strategies work in these challenging settings. To facilitate evaluation, we develop a novel metric for concept guidance that takes into account both the success of concept elicitation as well as the potential degradation in fluency of the guided model. Our extensive experiments reveal that while some concepts such as truthfulness more easily allow for guidance with current techniques, novel concepts such as appropriateness or humor either remain difficult to elicit, need extensive tuning to work, or even experience confusion. Moreover, we find that probes with optimal detection accuracies do not necessarily make for the optimal guides, contradicting previous observations for truthfulness. Our work warrants a deeper investigation into the interplay between detectability, guidability, and the nature of the concept, and we hope that our rich experimental test-bed for guidance research inspires stronger follow-up approaches.}
+      \field{booktitle}{Proceedings of the 41st International Conference on Machine Learning}
+      \field{series}{ICML'24}
+      \field{title}{A language model's guide through latent space}
+      \field{year}{2024}
     \endentry
     \entry{Zhang_Rao_Agrawala_2023}{inproceedings}{}
       \name{author}{3}{}{%
@@ -4663,8 +5155,8 @@
       \strng{authorbibnamehash}{2bc8ddb67541ee6ac4fe25593bb995a2}
       \strng{authornamehash}{2bc8ddb67541ee6ac4fe25593bb995a2}
       \strng{authorfullhash}{2bc8ddb67541ee6ac4fe25593bb995a2}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{IEEE/CVF International Conference on Computer Vision (ICCV 2023)}
@@ -4719,8 +5211,8 @@
       \strng{authorbibnamehash}{4f0ba19c9faba6fb81de61e4d8cd6b70}
       \strng{authornamehash}{24a6179a6b75e1899b9ba10197da8c93}
       \strng{authorfullhash}{4f0ba19c9faba6fb81de61e4d8cd6b70}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{arXiv}
@@ -4761,8 +5253,8 @@
       \strng{authorbibnamehash}{a7e3c6b62e9e2b13b3e3bb407aad5f59}
       \strng{authornamehash}{a7e3c6b62e9e2b13b3e3bb407aad5f59}
       \strng{authorfullhash}{a7e3c6b62e9e2b13b3e3bb407aad5f59}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Information Processing Systems}
@@ -4809,8 +5301,8 @@
       \strng{authorbibnamehash}{110e0c746ea1b81c5fc409c4ae9e33f4}
       \strng{authornamehash}{8222ede7784c3b297dd49b2a7e1ed6a9}
       \strng{authorfullhash}{110e0c746ea1b81c5fc409c4ae9e33f4}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{INTERSPEECH 2019}
@@ -4863,8 +5355,8 @@
       \strng{authorbibnamehash}{050e84a32290ecef4b1d4f8ccbe267b2}
       \strng{authornamehash}{0d25062a5dd2a96c3d00e0ce3b805bc3}
       \strng{authorfullhash}{050e84a32290ecef4b1d4f8ccbe267b2}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2023)}
@@ -4880,163 +5372,6 @@
       \verb{url}
       \verb http://arxiv.org/abs/2206.04769
       \endverb
-    \endentry
-    \entry{Yu_Lu_Wang_Hu_Tan_Ye_Zhang_museformer_2022}{inproceedings}{}
-      \name{author}{9}{}{%
-        {{hash=475a56d72ff2a2993645f8bc837ef474}{%
-           family={Yu},
-           familyi={Y\bibinitperiod},
-           given={Botao},
-           giveni={B\bibinitperiod}}}%
-        {{hash=337b739be2db84d26026c52d50fd8341}{%
-           family={Lu},
-           familyi={L\bibinitperiod},
-           given={Peiling},
-           giveni={P\bibinitperiod}}}%
-        {{hash=9a8e37c2db183faff113a94a5dbc4914}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Rui},
-           giveni={R\bibinitperiod}}}%
-        {{hash=0b61e9661067d0a906cff8be51415c72}{%
-           family={Hu},
-           familyi={H\bibinitperiod},
-           given={Wei},
-           giveni={W\bibinitperiod}}}%
-        {{hash=88c58ea43b71cda8e83ddf1181a534ce}{%
-           family={Tan},
-           familyi={T\bibinitperiod},
-           given={Xu},
-           giveni={X\bibinitperiod}}}%
-        {{hash=63a55b19037469d2b14dfb896fe22148}{%
-           family={Ye},
-           familyi={Y\bibinitperiod},
-           given={Wei},
-           giveni={W\bibinitperiod}}}%
-        {{hash=adee827d422f83e250ad82477211f997}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Shikun},
-           giveni={S\bibinitperiod}}}%
-        {{hash=5588f729660dbe4dbf5af3850f858ae3}{%
-           family={Qin},
-           familyi={Q\bibinitperiod},
-           given={Tao},
-           giveni={T\bibinitperiod}}}%
-        {{hash=716b89cbb7332599ebb33cc58a52f648}{%
-           family={Liu},
-           familyi={L\bibinitperiod},
-           given={Tie-Yan},
-           giveni={T\bibinithyphendelim Y\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \list{publisher}{1}{%
-        {arXiv}%
-      }
-      \strng{namehash}{11b2f78b694271dbe36aaa5edb9628b9}
-      \strng{fullhash}{8027c3304b38b9322819736caa6e2fc2}
-      \strng{bibnamehash}{11b2f78b694271dbe36aaa5edb9628b9}
-      \strng{authorbibnamehash}{11b2f78b694271dbe36aaa5edb9628b9}
-      \strng{authornamehash}{11b2f78b694271dbe36aaa5edb9628b9}
-      \strng{authorfullhash}{8027c3304b38b9322819736caa6e2fc2}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Thirty-sixth Conference on Neural Information Processing Systems (NeurIPS 2022)}
-      \field{month}{10}
-      \field{note}{arXiv:2210.10349 [cs]}
-      \field{title}{Museformer: Transformer with Fine- and Coarse-Grained Attention for Music Generation}
-      \field{year}{2022}
-      \verb{doi}
-      \verb 10.48550/arXiv.2210.10349
-      \endverb
-      \verb{urlraw}
-      \verb http://arxiv.org/abs/2210.10349
-      \endverb
-      \verb{url}
-      \verb http://arxiv.org/abs/2210.10349
-      \endverb
-    \endentry
-    \entry{Raffel_2016}{thesis}{}
-      \name{author}{1}{}{%
-        {{hash=81a5a94e2388c149a73a86381db45e07}{%
-           family={Raffel},
-           familyi={R\bibinitperiod},
-           given={Colin},
-           giveni={C\bibinitperiod}}}%
-      }
-      \list{institution}{1}{%
-        {Columbia University}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \list{location}{1}{%
-        {New York, NY, USA}%
-      }
-      \strng{namehash}{81a5a94e2388c149a73a86381db45e07}
-      \strng{fullhash}{81a5a94e2388c149a73a86381db45e07}
-      \strng{bibnamehash}{81a5a94e2388c149a73a86381db45e07}
-      \strng{authorbibnamehash}{81a5a94e2388c149a73a86381db45e07}
-      \strng{authornamehash}{81a5a94e2388c149a73a86381db45e07}
-      \strng{authorfullhash}{81a5a94e2388c149a73a86381db45e07}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Learning-Based Methods for Comparing Sequences, with Applications to Audio-to-MIDI Alignment and Matching}
-      \field{type}{phdthesis}
-      \field{year}{2016}
-    \endentry
-    \entry{language_guide_rutte_2024}{inproceedings}{}
-      \name{author}{4}{}{%
-        {{hash=75c17db78d5370a525e9db483e8fcc5f}{%
-           family={Rütte},
-           familyi={R\bibinitperiod},
-           given={Dimitri},
-           giveni={D\bibinitperiod},
-           prefix={von},
-           prefixi={v\bibinitperiod}}}%
-        {{hash=24f75abd86e1f45869a4d215d1ed65dc}{%
-           family={Anagnostidis},
-           familyi={A\bibinitperiod},
-           given={Sotiris},
-           giveni={S\bibinitperiod}}}%
-        {{hash=98a2abed0f78f10192f88bd557f4228e}{%
-           family={Bachmann},
-           familyi={B\bibinitperiod},
-           given={Gregor},
-           giveni={G\bibinitperiod}}}%
-        {{hash=ee42cfed2ff3020233d2de97c356eaee}{%
-           family={Hofmann},
-           familyi={H\bibinitperiod},
-           given={Thomas},
-           giveni={T\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Vienna, Austria}%
-      }
-      \list{publisher}{1}{%
-        {JMLR.org}%
-      }
-      \strng{namehash}{97301552f5385a13e3cf3cd7c2217399}
-      \strng{fullhash}{1f366bec7dad06f050b5f7d2ff09daa9}
-      \strng{bibnamehash}{1f366bec7dad06f050b5f7d2ff09daa9}
-      \strng{authorbibnamehash}{1f366bec7dad06f050b5f7d2ff09daa9}
-      \strng{authornamehash}{97301552f5385a13e3cf3cd7c2217399}
-      \strng{authorfullhash}{1f366bec7dad06f050b5f7d2ff09daa9}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Concept guidance has emerged as a cheap and simple way to control the behavior of language models by probing their hidden representations for concept vectors and using them to perturb activations at inference time. While the focus of previous work has largely been on truthfulness, in this paper we extend this framework to a richer set of concepts such as appropriateness, humor, creativity and quality, and explore to what degree current detection and guidance strategies work in these challenging settings. To facilitate evaluation, we develop a novel metric for concept guidance that takes into account both the success of concept elicitation as well as the potential degradation in fluency of the guided model. Our extensive experiments reveal that while some concepts such as truthfulness more easily allow for guidance with current techniques, novel concepts such as appropriateness or humor either remain difficult to elicit, need extensive tuning to work, or even experience confusion. Moreover, we find that probes with optimal detection accuracies do not necessarily make for the optimal guides, contradicting previous observations for truthfulness. Our work warrants a deeper investigation into the interplay between detectability, guidability, and the nature of the concept, and we hope that our rich experimental test-bed for guidance research inspires stronger follow-up approaches.}
-      \field{booktitle}{Proceedings of the 41st International Conference on Machine Learning}
-      \field{series}{ICML'24}
-      \field{title}{A language model's guide through latent space}
-      \field{year}{2024}
     \endentry
     \entry{McKay_2004}{thesis}{}
       \name{author}{1}{}{%
@@ -5074,341 +5409,6 @@
       \verb{url}
       \verb https://www.researchgate.net/publication/220723648_Automatic_Genre_Classification_Using_Large_High-Level_Musical_Feature_Sets
       \endverb
-    \endentry
-    \entry{sessionfolkdata}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=367f03b02a55ce9e4f4bad25d3501b2c}{%
-           family={Keith},
-           familyi={K\bibinitperiod},
-           given={Jeremy},
-           giveni={J\bibinitperiod}}}%
-      }
-      \strng{namehash}{367f03b02a55ce9e4f4bad25d3501b2c}
-      \strng{fullhash}{367f03b02a55ce9e4f4bad25d3501b2c}
-      \strng{bibnamehash}{367f03b02a55ce9e4f4bad25d3501b2c}
-      \strng{authorbibnamehash}{367f03b02a55ce9e4f4bad25d3501b2c}
-      \strng{authornamehash}{367f03b02a55ce9e4f4bad25d3501b2c}
-      \strng{authorfullhash}{367f03b02a55ce9e4f4bad25d3501b2c}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{TheSession Data}
-      \verb{urlraw}
-      \verb https://github.com/adactio/TheSession-data
-      \endverb
-      \verb{url}
-      \verb https://github.com/adactio/TheSession-data
-      \endverb
-    \endentry
-    \entry{jsbchorales}{misc}{}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labeltitlesource}{title}
-      \field{title}{Canonical JSB Dataset Chorals 389}
-      \verb{urlraw}
-      \verb https://github.com/czhuang/JSB-Chorales-dataset
-      \endverb
-      \verb{url}
-      \verb https://github.com/czhuang/JSB-Chorales-dataset
-      \endverb
-    \endentry
-    \entry{hawthorne2018maestro}{inproceedings}{}
-      \name{author}{9}{}{%
-        {{hash=4102bf268c4922002c51584dbb63c959}{%
-           family={Hawthorne},
-           familyi={H\bibinitperiod},
-           given={Curtis},
-           giveni={C\bibinitperiod}}}%
-        {{hash=bd9ccff49b29cb00d6855ab66232a1ab}{%
-           family={Stasyuk},
-           familyi={S\bibinitperiod},
-           given={Andriy},
-           giveni={A\bibinitperiod}}}%
-        {{hash=243c03e5ae8031582d6af9fcbc70f629}{%
-           family={Roberts},
-           familyi={R\bibinitperiod},
-           given={Adam},
-           giveni={A\bibinitperiod}}}%
-        {{hash=0b461ec7764bb41a6287a8d0716006a0}{%
-           family={Simon},
-           familyi={S\bibinitperiod},
-           given={Ian},
-           giveni={I\bibinitperiod}}}%
-        {{hash=9406d3118ff06a9e9b1fc218f4106061}{%
-           family={Huang},
-           familyi={H\bibinitperiod},
-           given={Cheng-Zhi\bibnamedelima Anna},
-           giveni={C\bibinithyphendelim Z\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=a133b469b21b870786119a47b1b691eb}{%
-           family={Dieleman},
-           familyi={D\bibinitperiod},
-           given={Sander},
-           giveni={S\bibinitperiod}}}%
-        {{hash=6aa92a937d4d30dd0b5ec0eecbad1bf1}{%
-           family={Elsen},
-           familyi={E\bibinitperiod},
-           given={Erich},
-           giveni={E\bibinitperiod}}}%
-        {{hash=84488af703576ab131f87436b63aeef0}{%
-           family={Engel},
-           familyi={E\bibinitperiod},
-           given={Jesse},
-           giveni={J\bibinitperiod}}}%
-        {{hash=b2c4631ad93e93115d9b3ceea6587550}{%
-           family={Eck},
-           familyi={E\bibinitperiod},
-           given={Douglas},
-           giveni={D\bibinitperiod}}}%
-      }
-      \strng{namehash}{e1932fad1445f2a1c222f4aebfde6776}
-      \strng{fullhash}{d7b3447bf817650a9fae3d8e5c821a04}
-      \strng{bibnamehash}{e1932fad1445f2a1c222f4aebfde6776}
-      \strng{authorbibnamehash}{e1932fad1445f2a1c222f4aebfde6776}
-      \strng{authornamehash}{e1932fad1445f2a1c222f4aebfde6776}
-      \strng{authorfullhash}{d7b3447bf817650a9fae3d8e5c821a04}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{International Conference on Learning Representations}
-      \field{title}{Enabling Factorized Piano Music Modeling and Generation with the {MAESTRO} Dataset}
-      \field{year}{2019}
-      \verb{urlraw}
-      \verb https://openreview.net/forum?id=r1lYRjC9F7
-      \endverb
-      \verb{url}
-      \verb https://openreview.net/forum?id=r1lYRjC9F7
-      \endverb
-    \endentry
-    \entry{classicalarchives}{misc}{}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labeltitlesource}{title}
-      \field{title}{Classical Archives Dataset Donation}
-      \verb{urlraw}
-      \verb https://www.classicalarchives.com/newca/#!/
-      \endverb
-      \verb{url}
-      \verb https://www.classicalarchives.com/newca/#!/
-      \endverb
-    \endentry
-    \entry{bitmidi}{misc}{}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labeltitlesource}{title}
-      \field{title}{Bit Midi Dataset Donation}
-      \verb{urlraw}
-      \verb https://bitmidi.com/
-      \endverb
-      \verb{url}
-      \verb https://bitmidi.com/
-      \endverb
-    \endentry
-    \entry{hooktheorypopmidi}{misc}{}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labeltitlesource}{title}
-      \field{title}{Hook Theory collection of pop-song transcriptions}
-      \verb{urlraw}
-      \verb https://www.hooktheory.com/theorytab
-      \endverb
-      \verb{url}
-      \verb https://www.hooktheory.com/theorytab
-      \endverb
-    \endentry
-    \entry{Ens_Pasquier_2020_MMM}{article}{}
-      \name{author}{2}{}{%
-        {{hash=27f4f6dc6c109424486e796156aa4808}{%
-           family={Ens},
-           familyi={E\bibinitperiod},
-           given={Jeff},
-           giveni={J\bibinitperiod}}}%
-        {{hash=98a4249d5bf6edf5cb5809788bd84b51}{%
-           family={Pasquier},
-           familyi={P\bibinitperiod},
-           given={Philippe},
-           giveni={P\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {arXiv}%
-      }
-      \strng{namehash}{66e26df9435a8cda6da4747b91e513f2}
-      \strng{fullhash}{66e26df9435a8cda6da4747b91e513f2}
-      \strng{bibnamehash}{66e26df9435a8cda6da4747b91e513f2}
-      \strng{authorbibnamehash}{66e26df9435a8cda6da4747b91e513f2}
-      \strng{authornamehash}{66e26df9435a8cda6da4747b91e513f2}
-      \strng{authorfullhash}{66e26df9435a8cda6da4747b91e513f2}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{arXiv}
-      \field{month}{8}
-      \field{note}{arXiv:2008.06048 [cs]}
-      \field{number}{arXiv:2008.06048}
-      \field{title}{MMM: Exploring Conditional Multi-Track Music Generation with the Transformer}
-      \field{year}{2020}
-      \verb{doi}
-      \verb 10.48550/arXiv.2008.06048
-      \endverb
-      \verb{urlraw}
-      \verb http://arxiv.org/abs/2008.06048
-      \endverb
-      \verb{url}
-      \verb http://arxiv.org/abs/2008.06048
-      \endverb
-    \endentry
-    \entry{Wang_Chen_pop90_dataset}{inproceedings}{}
-      \name{author}{8}{}{%
-        {{hash=05bc8d503a2c310ef0976ace7f9d2734}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Ziyu},
-           giveni={Z\bibinitperiod}}}%
-        {{hash=89000e53e1b796d08aec88db79b94714}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Ke},
-           giveni={K\bibinitperiod}}}%
-        {{hash=b33717bc555fc7091aee0f02c4302693}{%
-           family={Jiang},
-           familyi={J\bibinitperiod},
-           given={Junyan},
-           giveni={J\bibinitperiod}}}%
-        {{hash=a41540d5972b60f35aa9034b3fe307c3}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Yiyi},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=0839eb9251a2bc12130ded755bd673ef}{%
-           family={Xu},
-           familyi={X\bibinitperiod},
-           given={Maoran},
-           giveni={M\bibinitperiod}}}%
-        {{hash=08b6dcd7ff3a1bb27ed0031f9d0ac29b}{%
-           family={Dai},
-           familyi={D\bibinitperiod},
-           given={Shuqi},
-           giveni={S\bibinitperiod}}}%
-        {{hash=68f5d9a39b85aad91c1bc96245774618}{%
-           family={Gu},
-           familyi={G\bibinitperiod},
-           given={Xianbin},
-           giveni={X\bibinitperiod}}}%
-        {{hash=6e9f68df530fffccf13056f4d359fb7e}{%
-           family={Xia},
-           familyi={X\bibinitperiod},
-           given={Gus},
-           giveni={G\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{1b1c647aa5353464f41f3a8c801eee31}
-      \strng{fullhash}{8d37b0d34f29fe3d9a93f9f9b0bfb101}
-      \strng{bibnamehash}{1b1c647aa5353464f41f3a8c801eee31}
-      \strng{authorbibnamehash}{1b1c647aa5353464f41f3a8c801eee31}
-      \strng{authornamehash}{1b1c647aa5353464f41f3a8c801eee31}
-      \strng{authorfullhash}{8d37b0d34f29fe3d9a93f9f9b0bfb101}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{21st International Conference on Music Information Retrieval (ISMIR 2020)}
-      \field{title}{POP909: A POP-SONG DATASET FOR MUSIC ARRANGEMENT GENERATION}
-      \field{year}{2020}
-    \endentry
-    \entry{Crestel_OrchestralDataset}{inproceedings}{}
-      \name{author}{4}{}{%
-        {{hash=1dc64ca817095e1466dd42fbf9fb9811}{%
-           family={Crestel},
-           familyi={C\bibinitperiod},
-           given={Léopold},
-           giveni={L\bibinitperiod}}}%
-        {{hash=1ba6fef87fc57f035fe0ecbd7e5f4e75}{%
-           family={Esling},
-           familyi={E\bibinitperiod},
-           given={Philippe},
-           giveni={P\bibinitperiod}}}%
-        {{hash=1f8c9b316fb523a81487225198354e81}{%
-           family={Heng},
-           familyi={H\bibinitperiod},
-           given={Lena},
-           giveni={L\bibinitperiod}}}%
-        {{hash=617f00228ac08263e76626ceead8c60e}{%
-           family={McAdams},
-           familyi={M\bibinitperiod},
-           given={Stephen},
-           giveni={S\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Suzhou, China}%
-      }
-      \list{publisher}{1}{%
-        {arXiv}%
-      }
-      \strng{namehash}{1acd4a3499b28c3aa268ba67940c8b70}
-      \strng{fullhash}{0718aea9536a4e44d2b0f50fb3c351f9}
-      \strng{bibnamehash}{0718aea9536a4e44d2b0f50fb3c351f9}
-      \strng{authorbibnamehash}{0718aea9536a4e44d2b0f50fb3c351f9}
-      \strng{authornamehash}{1acd4a3499b28c3aa268ba67940c8b70}
-      \strng{authorfullhash}{0718aea9536a4e44d2b0f50fb3c351f9}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{18th International Society for Music Information Retrieval Conference}
-      \field{month}{10}
-      \field{note}{arXiv:1810.08611 [cs]}
-      \field{title}{A database linking piano and orchestral MIDI scores with application to automatic projective orchestration}
-      \field{year}{2018}
-      \verb{doi}
-      \verb 10.48550/arXiv.1810.08611
-      \endverb
-      \verb{urlraw}
-      \verb http://arxiv.org/abs/1810.08611
-      \endverb
-      \verb{url}
-      \verb http://arxiv.org/abs/1810.08611
-      \endverb
-    \endentry
-    \entry{Bertin-Mahieux_Ellis_Whitman_Lamere_2011}{inproceedings}{}
-      \name{author}{4}{}{%
-        {{hash=51cf2fed0b4b3042100ea32d9ce3c41e}{%
-           family={Bertin-Mahieux},
-           familyi={B\bibinithyphendelim M\bibinitperiod},
-           given={Thierry},
-           giveni={T\bibinitperiod}}}%
-        {{hash=8c2dba7002458c6a90760f98d2e441f1}{%
-           family={Ellis},
-           familyi={E\bibinitperiod},
-           given={Daniel\bibnamedelima P.W.},
-           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
-        {{hash=dac20e999e2524cfd5b5885d028f57b5}{%
-           family={Whitman},
-           familyi={W\bibinitperiod},
-           given={Brian},
-           giveni={B\bibinitperiod}}}%
-        {{hash=9a3c53fbc0e29f2c2a3ffcbcdf37b3ed}{%
-           family={Lamere},
-           familyi={L\bibinitperiod},
-           given={Paul},
-           giveni={P\bibinitperiod}}}%
-      }
-      \strng{namehash}{22ce46e034dda88880400f7e30f1f09a}
-      \strng{fullhash}{fcf616dff7fcb4f32207c3de99f433ee}
-      \strng{bibnamehash}{fcf616dff7fcb4f32207c3de99f433ee}
-      \strng{authorbibnamehash}{fcf616dff7fcb4f32207c3de99f433ee}
-      \strng{authornamehash}{22ce46e034dda88880400f7e30f1f09a}
-      \strng{authorfullhash}{fcf616dff7fcb4f32207c3de99f433ee}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings of the 12th international conference on music information retrieval (ISMIR 2011)}
-      \field{title}{The million song dataset}
-      \field{year}{2011}
     \endentry
   \enddatalist
 \endrefsection

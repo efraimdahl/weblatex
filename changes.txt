@@ -1,15 +1,16 @@
 2/20/2025
 
 Section 2
-    Reorganize, move motivation and ethical concerns to the beginning of the chapter
-    Consolidate overview - 
-        Non Neural (integrated illiac suite by category)
-            Rule-based  
-            markoff
-            Other
-        Neural (RNN,GAN - Deep Learning with Transformers)
+    Reorganize, move motivation and ethical concerns to the beginning of the chapter. 
+    Consolidate overview of Non-Neural Systems, expanded section on early neural systems. 
+
+    Added Table to beginning of technical section
+
+    Representation: Improved explanation of tokenizer
 
     Control: Strong consolidation
+
+    Evaluation: improved explanations, moved planned evaluation to methodology. 
 
 Section 3 
     Minimal summary of section 2 and how it informs the research questions

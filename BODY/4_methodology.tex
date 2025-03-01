@@ -11,19 +11,19 @@ We will use the Lakh MIDI Dataset \cite{Raffel_2016}, a widely used open-source 
 MusicLang's core model is a transformer based on LLAMA 2 trained on the Lakh MIDI Dataset\cite{Raffel_2016}. It can generate relatively long multi-track instrumental pieces (1-3 minutes) with control for chord progression, instrumentation, and range. Additionally, it can create interpolations and continuations of a user-provided piece. It is trained on an extended vocabulary of tokens similar to REMI\footnote{https://musiclang.github.io/tokenizer/} with additional tokens detailing the harmonic structure and voice characteristics such as instrumentation or range (see figure \ref{fig:musiclangtok}). This base vocabulary is extended using a BPE tokenizer. 
 \textbf{Addition} For inference there are multiple different modes of generation, 1) free generation, 2) continuation, 3) controlled generation, and 4) controlled continuation. For free generation, the user can indicate the following settings.
 \begin{itemize}
-    \item Number of tokens: Number of tokens to generate, this influences the length of the music depending on the number of instruments. More instruments and higher note density means more tokens per second of music.
-    \item Temperature: Temperature parameter for softmax sampling (see section \ref{section:token_sampling})
-    \item Top p: Target percentage: (see section \ref{section:token_sampling}) 
+\item Number of tokens: Number of tokens to generate, this influences the length of the music depending on the number of instruments. More instruments and higher note density means more tokens per second of music.
+\item Temperature: Temperature parameter for softmax sampling (see section \ref{section:token_sampling})
+\item Top p: Target percentage: (see section \ref{section:token_sampling}) 
 \end{itemize}
 For controlled generation, the user can indicate a chord progression as a string. This includes extended chord variations including Major (M), minor (m), 7, m7b5, sus2, sus4, m7, M7, dim, dim0. One can also specify a bass note, i.e. CM7/D. The length of the chord progression influences the length of the generation.
 For \textit{continuation}, the user provides a MIDI track and the section of measures that are used as the basis for generation.
 For \textit{conrolled continuation} the user provides both a chord progression and a MIDI track. 
 
 \begin{figure}[H]
-    \centering
-    \includegraphics[width=1\textwidth]{IMAGES/MusicLang.JPG} 
-    \caption{MusicLang's tokenization on a high level, shows a hierarchical tokenization process. At the highest level are chord-related tokens that describe the harmonic structure of a section. This is followed by instrument-level tokens that encode summarizing features such as instrumentation, octave, range, and note-density of a voice within a section. Finally, there are note-level tokens that encode the pitch and duration of an event within a voice within a section}
-    \label{fig:musiclangtok}
+\centering
+\includegraphics[width=1\textwidth]{IMAGES/MusicLang.JPG} 
+\caption{MusicLang's tokenization on a high level, shows a hierarchical tokenization process. At the highest level are chord-related tokens that describe the harmonic structure of a section. This is followed by instrument-level tokens that encode summarizing features such as instrumentation, octave, range, and note-density of a voice within a section. Finally, there are note-level tokens that encode the pitch and duration of an event within a voice within a section}
+\label{fig:musiclangtok}
 \end{figure}
 
 \subsection{RhythmLang}

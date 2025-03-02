@@ -17,6 +17,7 @@ Section 3
     Properly defined research questions
 
 Section 4 Methodology:
+    Large added sections are marked with ADDITION. - hope it makes reading easier.
     Changed approach, focus on model development instead of comparative control methods or MACT. 
     Added detailed descriptions on model input/output/modes. 
     Added detailed descriptions of evaluation and planned experiments, and reasoning why. 

@@ -18,15 +18,6 @@ Applying the BPE tokenizer results in sequence lengths roughly 1/3 of the origin
 Also relevant in the music generation context are \textbf{high-level} vs \textbf{low-level} features. Music generation can take high-level concepts such as genre \cite{Rouard_Adi_Copet_Roebel_Défossez_musicgenstyle_2024}, \cite{Lu_Xu_Kang_Yu_Xing_Tan_Bian_MuseCoco_2023} or emotion \cite{Tan_Herremans_2020} \cite{Lu_Xu_Kang_Yu_Xing_Tan_Bian_MuseCoco_2023} into account, which in turn effects more complex dynamics of concrete features. To illustrate: In Music FaderNets \cite{Tan_Herremans_2020} the authors use a variational autoencoder to disentangle the abstract concept of arousal, into several concrete features including rhythmic density, note-density, tempo and dynamic, key. This allows them to change the abstract variable arousal, which cascades into a change of underlying features. This type of disentanglement can aid in situations where labled musical data with the abstract feature is less available, it can also aid in creating more accessible and interpretable generative models.
 
 
-\section{LastMinuteGig - music algorithms}\label{musicalgorithm}
-This project is motivated by extending the music engine of LastMinuteGig. \cite{Chalkiadakis_2022}. The application currently employs a very simple algorithm. I will outline it below. 
-\begin{itemize}
-    \item{1}: Randomly choose key, rhythmic pattern, chord progression and tempo from a pool of possible values.
-    \item{2}: Play corresponding percussion audio clip (depends on tempo and rhythmic pattern)
-    \item{3}: When user plays the button trigger the guitar sound of the current chord.
-    \item{4}: After 8 bars - make a random change (to rhythm, tempo, pause)
-\end{itemize}
-
 
 The following is a description of an improved algorithm utilizing generated music by RhythmLang
 \begin{itemize}
@@ -129,7 +120,7 @@ Subjective Evaluation Coherence, Richness, Consistency, Overall 29 participants.
 \item{FTG - Fine Grained Texture Control} - Diffusion - control over texture, rhythm and chords. 
 
 \item{Fader Nets}\cite{Tan_Herremans_2020} - VAE - Control over rhythm, arousal, 
-Idea: develop a "fader" representing a high-level abstract feature i.e arousal. Arousal is disentangled using a VAE into lower level features (i.e rhythmic density).
+Idea: develop a "fader" representing a high-level abstract feature i.e. arousal. Arousal is disentangled using a VAE into lower level features (i.e. rhythmic density).
 
 Evaluation of the influence of latent features is on generated (style transfer) music.:
 Consistency, Restrictiveness (one latent dimension does not influence other musical features), Linearity (linear change in latent feature - linear change in musical feature)

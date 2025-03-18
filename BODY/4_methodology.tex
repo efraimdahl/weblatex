@@ -1,5 +1,6 @@
 \chapter{Methodology}
-To answer \textbf{RQ1}, we develop, train, and evaluate a model conditioned with inner metric weight. We experiment with different approaches, with particular attention to approaches that require little training resources, such as fine-tuning, to address \textbf{RQ1.1}. \textbf{RQ1.2} is answered through quantitative comparative evaluation.   
+To answer \textbf{RQ1}, we develop, train, and evaluate a model conditioned with inner metric weight. We experiment with different approaches, with particular attention to approaches that require little training resources, such as fine-tuning. 
+The resulting outputs are evaluated quantitatevly, to judge the success of the conditioning.
 \textbf{RQ2} is answered with an interactive participant study where a participant either indicates when they hear changes or taps along and adjusts their tapping when they hear changes. \textbf{RQ3} is answered with a participant study that collects ratings on music generated with our model. 
 
 \section{Introducing RhythmLang - Approach and Base-model}
@@ -19,7 +20,7 @@ For inference there are multiple different modes of generation, 1) free generati
 \end{itemize}
 For controlled generation, the user can indicate a chord progression as a string. This includes extended chord variations including Major (M), minor (m), 7, m7b5, sus2, sus4, m7, M7, dim, dim0. One can also specify a bass note, i.e. CM7/D. The length of the chord progression influences the length of the generation.
 For \textit{continuation}, the user provides a MIDI track and the section of measures that are used as the basis for generation.
-For \textit{conrolled continuation} the user provides both a chord progression and a MIDI track. 
+For \textit{controlled continuation} the user provides both a chord progression and a MIDI track. 
 
 \begin{figure}[H]
 \centering

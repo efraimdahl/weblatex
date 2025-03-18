@@ -66,39 +66,83 @@
       \verb https://doi.org/10.1145/3356590.3356599
       \endverb
     \endentry
-    \entry{Chalkiadakis_2022}{thesis}{}
-      \name{author}{1}{}{%
-        {{hash=c12e36101de31ce56921bb94e3fed844}{%
-           family={Chalkiadakis},
-           familyi={C\bibinitperiod},
-           given={Ermis},
-           giveni={E\bibinitperiod}}}%
+    \entry{Park_Kim_2021}{article}{}
+      \name{author}{2}{}{%
+        {{hash=5eaf0d55c25c379957cf27c4889fab18}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Jin-Kyoung},
+           giveni={J\bibinithyphendelim K\bibinitperiod}}}%
+        {{hash=d586afb2f1303c68b7da30f2a4c3fe6f}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Soo\bibnamedelima Ji},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
       }
-      \list{institution}{1}{%
-        {Utrecht University}%
+      \list{language}{1}{%
+        {eng}%
       }
-      \list{location}{1}{%
-        {Utrecht, NL}%
-      }
-      \strng{namehash}{c12e36101de31ce56921bb94e3fed844}
-      \strng{fullhash}{c12e36101de31ce56921bb94e3fed844}
-      \strng{bibnamehash}{c12e36101de31ce56921bb94e3fed844}
-      \strng{authorbibnamehash}{c12e36101de31ce56921bb94e3fed844}
-      \strng{authornamehash}{c12e36101de31ce56921bb94e3fed844}
-      \strng{authorfullhash}{c12e36101de31ce56921bb94e3fed844}
+      \strng{namehash}{9a38eaa5e4d40c7bb2986b314f392876}
+      \strng{fullhash}{9a38eaa5e4d40c7bb2986b314f392876}
+      \strng{bibnamehash}{9a38eaa5e4d40c7bb2986b314f392876}
+      \strng{authorbibnamehash}{9a38eaa5e4d40c7bb2986b314f392876}
+      \strng{authornamehash}{9a38eaa5e4d40c7bb2986b314f392876}
+      \strng{authorfullhash}{9a38eaa5e4d40c7bb2986b314f392876}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{month}{1}
-      \field{title}{Developing and evaluating a Musical Attention Control Training computer game application.}
-      \field{type}{mathesis}
-      \field{year}{2022}
-      \verb{urlraw}
-      \verb https://studenttheses.uu.nl/bitstream/handle/20.500.12932/500/Master%20Thesis%20-%20Developing%20and%20evaluating%20a%20Musical%20Attention%20Control%20Training%20computer%20game%20application%20%285892252%29.pdf?sequence=1\&isAllowed=y
+      \field{issn}{1660-4601}
+      \field{journaltitle}{International Journal of Environmental Research and Public Health}
+      \field{month}{9}
+      \field{number}{19}
+      \field{title}{Dual-Task-Based Drum Playing with Rhythmic Cueing on Motor and Attention Control in Patients with Parkinson’s Disease: A Preliminary Randomized Study}
+      \field{volume}{18}
+      \field{year}{2021}
+      \field{pages}{10095}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/ijerph181910095
       \endverb
-      \verb{url}
-      \verb https://studenttheses.uu.nl/bitstream/handle/20.500.12932/500/Master%20Thesis%20-%20Developing%20and%20evaluating%20a%20Musical%20Attention%20Control%20Training%20computer%20game%20application%20%285892252%29.pdf?sequence=1%5C&isAllowed=y
+    \endentry
+    \entry{Martin-Moratinos_Bella-Fernández_Blasco-Fontecilla_2023}{article}{}
+      \name{author}{3}{}{%
+        {{hash=8f961c579df3c7e9ad62ee10e639f893}{%
+           family={Martin-Moratinos},
+           familyi={M\bibinithyphendelim M\bibinitperiod},
+           given={Marina},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8c22e83bb2bde77f1654f3f81c1e4616}{%
+           family={Bella-Fernández},
+           familyi={B\bibinithyphendelim F\bibinitperiod},
+           given={Marcos},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a5f60f09c7e1ebade4448c1fcf700a2c}{%
+           family={Blasco-Fontecilla},
+           familyi={B\bibinithyphendelim F\bibinitperiod},
+           given={Hilario},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{d3db96f945ffc343c1f09c640df95c94}
+      \strng{fullhash}{d3db96f945ffc343c1f09c640df95c94}
+      \strng{bibnamehash}{d3db96f945ffc343c1f09c640df95c94}
+      \strng{authorbibnamehash}{d3db96f945ffc343c1f09c640df95c94}
+      \strng{authornamehash}{d3db96f945ffc343c1f09c640df95c94}
+      \strng{authorfullhash}{d3db96f945ffc343c1f09c640df95c94}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1439-4456}
+      \field{journaltitle}{Journal of Medical Internet Research}
+      \field{month}{5}
+      \field{title}{Effects of Music on Attention-Deficit/Hyperactivity Disorder (ADHD) and Potential Application in Serious Video Games: Systematic Review}
+      \field{volume}{25}
+      \field{year}{2023}
+      \field{pages}{e37742}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.2196/37742
       \endverb
     \endentry
     \entry{copet2023simple}{inproceedings}{}
@@ -150,8 +194,8 @@
       \strng{authorbibnamehash}{7d101684c757e8e56c9953e048a328f7}
       \strng{authornamehash}{7d101684c757e8e56c9953e048a328f7}
       \strng{authorfullhash}{3d5e353b71ad18280f9db3f394d878fc}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Thirty-seventh Conference on Neural Information Processing Systems}
@@ -244,8 +288,8 @@
       \strng{authorbibnamehash}{05ef7e924de07e3c3603e71691d963ce}
       \strng{authornamehash}{05ef7e924de07e3c3603e71691d963ce}
       \strng{authorfullhash}{2d92784319343b5eaa50b8050dca6671}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{arXiv}
@@ -277,8 +321,8 @@
       \strng{authorbibnamehash}{6958bc7503ffaf0dfc3f61e152c5e97c}
       \strng{authornamehash}{6958bc7503ffaf0dfc3f61e152c5e97c}
       \strng{authorfullhash}{6958bc7503ffaf0dfc3f61e152c5e97c}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Bayern 2 Zuendfunk}
@@ -307,8 +351,8 @@
       \strng{authornamehash}{1442d3b5235b4f524c8c9e4b5d6c758b}
       \strng{authorfullhash}{1442d3b5235b4f524c8c9e4b5d6c758b}
       \field{extraname}{1}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Music Business Worldwide}
@@ -320,6 +364,76 @@
       \endverb
       \verb{url}
       \verb https://www.musicbusinessworldwide.com/suno-with-a-500m-valuation-has-admitted-training-its-ai-on-copyrighted-music-it-just-named-timbaland-as-a-strategic-advisor1/
+      \endverb
+    \endentry
+    \entry{Chalkiadakis_2022}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=c12e36101de31ce56921bb94e3fed844}{%
+           family={Chalkiadakis},
+           familyi={C\bibinitperiod},
+           given={Ermis},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Utrecht University}%
+      }
+      \list{location}{1}{%
+        {Utrecht, NL}%
+      }
+      \strng{namehash}{c12e36101de31ce56921bb94e3fed844}
+      \strng{fullhash}{c12e36101de31ce56921bb94e3fed844}
+      \strng{bibnamehash}{c12e36101de31ce56921bb94e3fed844}
+      \strng{authorbibnamehash}{c12e36101de31ce56921bb94e3fed844}
+      \strng{authornamehash}{c12e36101de31ce56921bb94e3fed844}
+      \strng{authorfullhash}{c12e36101de31ce56921bb94e3fed844}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{1}
+      \field{title}{Developing and evaluating a Musical Attention Control Training computer game application.}
+      \field{type}{mathesis}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://studenttheses.uu.nl/bitstream/handle/20.500.12932/500/Master%20Thesis%20-%20Developing%20and%20evaluating%20a%20Musical%20Attention%20Control%20Training%20computer%20game%20application%20%285892252%29.pdf?sequence=1\&isAllowed=y
+      \endverb
+      \verb{url}
+      \verb https://studenttheses.uu.nl/bitstream/handle/20.500.12932/500/Master%20Thesis%20-%20Developing%20and%20evaluating%20a%20Musical%20Attention%20Control%20Training%20computer%20game%20application%20%285892252%29.pdf?sequence=1%5C&isAllowed=y
+      \endverb
+    \endentry
+    \entry{Volk2008Syncopation}{article}{}
+      \name{author}{1}{}{%
+        {{hash=2f9067ea59911728c7917fe4de37cb8d}{%
+           family={Volk},
+           familyi={V\bibinitperiod},
+           given={Anja},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{2f9067ea59911728c7917fe4de37cb8d}
+      \strng{fullhash}{2f9067ea59911728c7917fe4de37cb8d}
+      \strng{bibnamehash}{2f9067ea59911728c7917fe4de37cb8d}
+      \strng{authorbibnamehash}{2f9067ea59911728c7917fe4de37cb8d}
+      \strng{authornamehash}{2f9067ea59911728c7917fe4de37cb8d}
+      \strng{authorfullhash}{2f9067ea59911728c7917fe4de37cb8d}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of New Music Research}
+      \field{number}{4}
+      \field{title}{The Study of Syncopation Using Inner Metric Analysis: Linking Theoretical and Experimental Analysis of Metre in Music}
+      \field{volume}{37}
+      \field{year}{2008}
+      \field{pages}{259\bibrangedash 273}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1080/09298210802479213
+      \endverb
+      \verb{urlraw}
+      \verb https://webspace.science.uu.nl/~veltk101/publications/art/JNMR08.pdf
+      \endverb
+      \verb{url}
+      \verb https://webspace.science.uu.nl/~veltk101/publications/art/JNMR08.pdf
       \endverb
     \endentry
     \entry{Nierhaus_2009}{book}{}
@@ -345,8 +459,8 @@
       \strng{authorbibnamehash}{9d5305cdeaea8dacb8b6a9d39bfcfc37}
       \strng{authornamehash}{9d5305cdeaea8dacb8b6a9d39bfcfc37}
       \strng{authorfullhash}{9d5305cdeaea8dacb8b6a9d39bfcfc37}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{978-3-211-75539-6}
@@ -789,85 +903,6 @@
       \verb 10.1177/2059204321997709
       \endverb
     \endentry
-    \entry{Park_Kim_2021}{article}{}
-      \name{author}{2}{}{%
-        {{hash=5eaf0d55c25c379957cf27c4889fab18}{%
-           family={Park},
-           familyi={P\bibinitperiod},
-           given={Jin-Kyoung},
-           giveni={J\bibinithyphendelim K\bibinitperiod}}}%
-        {{hash=d586afb2f1303c68b7da30f2a4c3fe6f}{%
-           family={Kim},
-           familyi={K\bibinitperiod},
-           given={Soo\bibnamedelima Ji},
-           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {eng}%
-      }
-      \strng{namehash}{9a38eaa5e4d40c7bb2986b314f392876}
-      \strng{fullhash}{9a38eaa5e4d40c7bb2986b314f392876}
-      \strng{bibnamehash}{9a38eaa5e4d40c7bb2986b314f392876}
-      \strng{authorbibnamehash}{9a38eaa5e4d40c7bb2986b314f392876}
-      \strng{authornamehash}{9a38eaa5e4d40c7bb2986b314f392876}
-      \strng{authorfullhash}{9a38eaa5e4d40c7bb2986b314f392876}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{1660-4601}
-      \field{journaltitle}{International Journal of Environmental Research and Public Health}
-      \field{month}{9}
-      \field{number}{19}
-      \field{title}{Dual-Task-Based Drum Playing with Rhythmic Cueing on Motor and Attention Control in Patients with Parkinson’s Disease: A Preliminary Randomized Study}
-      \field{volume}{18}
-      \field{year}{2021}
-      \field{pages}{10095}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.3390/ijerph181910095
-      \endverb
-    \endentry
-    \entry{Martin-Moratinos_Bella-Fernández_Blasco-Fontecilla_2023}{article}{}
-      \name{author}{3}{}{%
-        {{hash=8f961c579df3c7e9ad62ee10e639f893}{%
-           family={Martin-Moratinos},
-           familyi={M\bibinithyphendelim M\bibinitperiod},
-           given={Marina},
-           giveni={M\bibinitperiod}}}%
-        {{hash=8c22e83bb2bde77f1654f3f81c1e4616}{%
-           family={Bella-Fernández},
-           familyi={B\bibinithyphendelim F\bibinitperiod},
-           given={Marcos},
-           giveni={M\bibinitperiod}}}%
-        {{hash=a5f60f09c7e1ebade4448c1fcf700a2c}{%
-           family={Blasco-Fontecilla},
-           familyi={B\bibinithyphendelim F\bibinitperiod},
-           given={Hilario},
-           giveni={H\bibinitperiod}}}%
-      }
-      \strng{namehash}{d3db96f945ffc343c1f09c640df95c94}
-      \strng{fullhash}{d3db96f945ffc343c1f09c640df95c94}
-      \strng{bibnamehash}{d3db96f945ffc343c1f09c640df95c94}
-      \strng{authorbibnamehash}{d3db96f945ffc343c1f09c640df95c94}
-      \strng{authornamehash}{d3db96f945ffc343c1f09c640df95c94}
-      \strng{authorfullhash}{d3db96f945ffc343c1f09c640df95c94}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{1439-4456}
-      \field{journaltitle}{Journal of Medical Internet Research}
-      \field{month}{5}
-      \field{title}{Effects of Music on Attention-Deficit/Hyperactivity Disorder (ADHD) and Potential Application in Serious Video Games: Systematic Review}
-      \field{volume}{25}
-      \field{year}{2023}
-      \field{pages}{e37742}
-      \range{pages}{-1}
-      \verb{doi}
-      \verb 10.2196/37742
-      \endverb
-    \endentry
     \entry{Pasiali_LaGasse_Penn_2014}{article}{}
       \name{author}{3}{}{%
         {{hash=151088f455b6711126a07f06314740dd}{%
@@ -969,8 +1004,8 @@
       \strng{authorbibnamehash}{22b59995ff4c58948d1793a7d2862e39}
       \strng{authornamehash}{22b59995ff4c58948d1793a7d2862e39}
       \strng{authorfullhash}{22b59995ff4c58948d1793a7d2862e39}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Increasing engagement in a MACT game through feedback and adaptability}
@@ -994,8 +1029,8 @@
       \strng{authorbibnamehash}{fc77b96db0c178596d5f8a82d8536b22}
       \strng{authornamehash}{fc77b96db0c178596d5f8a82d8536b22}
       \strng{authorfullhash}{fc77b96db0c178596d5f8a82d8536b22}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Music Business Worldwide}
@@ -1301,8 +1336,8 @@
       \strng{authorbibnamehash}{dc704c70f4182fae18251f7451f130b9}
       \strng{authornamehash}{dc704c70f4182fae18251f7451f130b9}
       \strng{authorfullhash}{dc704c70f4182fae18251f7451f130b9}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{TechCrunch}
@@ -1331,8 +1366,8 @@
       \strng{authornamehash}{1442d3b5235b4f524c8c9e4b5d6c758b}
       \strng{authorfullhash}{1442d3b5235b4f524c8c9e4b5d6c758b}
       \field{extraname}{2}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Music Business Worldwide}
@@ -1363,8 +1398,8 @@
       \strng{authorbibnamehash}{849aaf7513c94c094ce3dd5f7480ff45}
       \strng{authornamehash}{849aaf7513c94c094ce3dd5f7480ff45}
       \strng{authorfullhash}{849aaf7513c94c094ce3dd5f7480ff45}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Polytechnique Insights}
@@ -1673,8 +1708,8 @@
       \strng{authorbibnamehash}{20c5abe02d87cb3086e223351e44e900}
       \strng{authornamehash}{20c5abe02d87cb3086e223351e44e900}
       \strng{authorfullhash}{20c5abe02d87cb3086e223351e44e900}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0148-9267}
@@ -1706,8 +1741,8 @@
       \strng{authorbibnamehash}{091907acecffa990a510ca1189a4d722}
       \strng{authornamehash}{091907acecffa990a510ca1189a4d722}
       \strng{authorfullhash}{091907acecffa990a510ca1189a4d722}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0954-0091}
@@ -1755,8 +1790,8 @@
       \strng{authorbibnamehash}{425c51e6a45eb5992ab70d905373a121}
       \strng{authornamehash}{30755bc5f0d7817c050862ba87f7e9ad}
       \strng{authorfullhash}{425c51e6a45eb5992ab70d905373a121}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{11}
@@ -2044,8 +2079,8 @@
       \strng{authorbibnamehash}{7936612a06bd050ee5f68e6703854477}
       \strng{authornamehash}{b2af610299882fc449cae3384f26e206}
       \strng{authorfullhash}{7936612a06bd050ee5f68e6703854477}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{arXiv}
@@ -2077,8 +2112,8 @@
       \strng{authorbibnamehash}{a630073cbc4b903b137b376b2d3d7249}
       \strng{authornamehash}{a630073cbc4b903b137b376b2d3d7249}
       \strng{authorfullhash}{a630073cbc4b903b137b376b2d3d7249}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{4}
@@ -2316,8 +2351,8 @@
       \strng{authorbibnamehash}{361a7bf17bcbb7075de1a9ecb0862241}
       \strng{authornamehash}{361a7bf17bcbb7075de1a9ecb0862241}
       \strng{authorfullhash}{361a7bf17bcbb7075de1a9ecb0862241}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Gradus ad Parnassum}
@@ -2744,8 +2779,8 @@
       \strng{authorbibnamehash}{f577afbbbc5ae55cee9f0d9f79adcb02}
       \strng{authornamehash}{9a79fc75e43ba7ff3b1f61171ae90c90}
       \strng{authorfullhash}{f577afbbbc5ae55cee9f0d9f79adcb02}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Language models are unsupervised multitask learners}
@@ -2809,8 +2844,8 @@
       \strng{authorbibnamehash}{a6d7a1e44e61baeb0b9b21cbfb30b774}
       \strng{authornamehash}{a6d7a1e44e61baeb0b9b21cbfb30b774}
       \strng{authorfullhash}{d8bc082560c50f362259c9f293333279}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the 40th International Conference on Machine Learning (PMLR)}
@@ -3012,8 +3047,8 @@
       \endverb
     \endentry
     \entry{jsbchorales}{misc}{}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labeltitlesource}{title}
       \field{title}{Canonical JSB Dataset Chorals 389}
       \verb{urlraw}
@@ -3077,8 +3112,8 @@
       \strng{authorbibnamehash}{e1932fad1445f2a1c222f4aebfde6776}
       \strng{authornamehash}{e1932fad1445f2a1c222f4aebfde6776}
       \strng{authorfullhash}{d7b3447bf817650a9fae3d8e5c821a04}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{International Conference on Learning Representations}
@@ -4619,80 +4654,6 @@
       \verb http://arxiv.org/abs/2008.07122
       \endverb
     \endentry
-    \entry{Bemman2024}{inproceedings}{}
-      \name{author}{2}{}{%
-        {{hash=5fb961d720e810c48553dffb63949a54}{%
-           family={Bemman},
-           familyi={B\bibinitperiod},
-           given={Brian},
-           giveni={B\bibinitperiod}}}%
-        {{hash=96dfcf2c04224b58b1e1a71d9c0e49ae}{%
-           family={Christensen},
-           familyi={C\bibinitperiod},
-           given={Justin},
-           giveni={J\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {San Francisco, USA}%
-      }
-      \strng{namehash}{4f6c6b1b57839fb210dc94f92bc1f42a}
-      \strng{fullhash}{4f6c6b1b57839fb210dc94f92bc1f42a}
-      \strng{bibnamehash}{4f6c6b1b57839fb210dc94f92bc1f42a}
-      \strng{authorbibnamehash}{4f6c6b1b57839fb210dc94f92bc1f42a}
-      \strng{authornamehash}{4f6c6b1b57839fb210dc94f92bc1f42a}
-      \strng{authorfullhash}{4f6c6b1b57839fb210dc94f92bc1f42a}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings of the 25th International Society for Music Information Retrieval Conference (ISMIR)}
-      \field{month}{11}
-      \field{title}{Inner Metric Analysis as a Measure of Rhythmic Syncopation}
-      \field{year}{2024}
-      \field{pages}{389\bibrangedash 396}
-      \range{pages}{8}
-      \verb{urlraw}
-      \verb https://ismir2024program.ismir.net/poster_251.html
-      \endverb
-      \verb{url}
-      \verb https://ismir2024program.ismir.net/poster_251.html
-      \endverb
-    \endentry
-    \entry{Volk2008Syncopation}{article}{}
-      \name{author}{1}{}{%
-        {{hash=2f9067ea59911728c7917fe4de37cb8d}{%
-           family={Volk},
-           familyi={V\bibinitperiod},
-           given={Anja},
-           giveni={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{2f9067ea59911728c7917fe4de37cb8d}
-      \strng{fullhash}{2f9067ea59911728c7917fe4de37cb8d}
-      \strng{bibnamehash}{2f9067ea59911728c7917fe4de37cb8d}
-      \strng{authorbibnamehash}{2f9067ea59911728c7917fe4de37cb8d}
-      \strng{authornamehash}{2f9067ea59911728c7917fe4de37cb8d}
-      \strng{authorfullhash}{2f9067ea59911728c7917fe4de37cb8d}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of New Music Research}
-      \field{number}{4}
-      \field{title}{The Study of Syncopation Using Inner Metric Analysis: Linking Theoretical and Experimental Analysis of Metre in Music}
-      \field{volume}{37}
-      \field{year}{2008}
-      \field{pages}{259\bibrangedash 273}
-      \range{pages}{15}
-      \verb{doi}
-      \verb 10.1080/09298210802479213
-      \endverb
-      \verb{urlraw}
-      \verb https://webspace.science.uu.nl/~veltk101/publications/art/JNMR08.pdf
-      \endverb
-      \verb{url}
-      \verb https://webspace.science.uu.nl/~veltk101/publications/art/JNMR08.pdf
-      \endverb
-    \endentry
     \entry{Chew_Volk_Lee_Dance_metric_weight_2005}{inproceedings}{}
       \name{author}{3}{}{%
         {{hash=9234000a1ec5e037cf1f9b73d07003a3}{%
@@ -4879,6 +4840,45 @@
       \verb http://link.springer.com/10.1007/978-3-642-04579-0_8
       \endverb
     \endentry
+    \entry{Bemman2024}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=5fb961d720e810c48553dffb63949a54}{%
+           family={Bemman},
+           familyi={B\bibinitperiod},
+           given={Brian},
+           giveni={B\bibinitperiod}}}%
+        {{hash=96dfcf2c04224b58b1e1a71d9c0e49ae}{%
+           family={Christensen},
+           familyi={C\bibinitperiod},
+           given={Justin},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {San Francisco, USA}%
+      }
+      \strng{namehash}{4f6c6b1b57839fb210dc94f92bc1f42a}
+      \strng{fullhash}{4f6c6b1b57839fb210dc94f92bc1f42a}
+      \strng{bibnamehash}{4f6c6b1b57839fb210dc94f92bc1f42a}
+      \strng{authorbibnamehash}{4f6c6b1b57839fb210dc94f92bc1f42a}
+      \strng{authornamehash}{4f6c6b1b57839fb210dc94f92bc1f42a}
+      \strng{authorfullhash}{4f6c6b1b57839fb210dc94f92bc1f42a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 25th International Society for Music Information Retrieval Conference (ISMIR)}
+      \field{month}{11}
+      \field{title}{Inner Metric Analysis as a Measure of Rhythmic Syncopation}
+      \field{year}{2024}
+      \field{pages}{389\bibrangedash 396}
+      \range{pages}{8}
+      \verb{urlraw}
+      \verb https://ismir2024program.ismir.net/poster_251.html
+      \endverb
+      \verb{url}
+      \verb https://ismir2024program.ismir.net/poster_251.html
+      \endverb
+    \endentry
     \entry{Rombach_Blattmann_Lorenz_Esser_Ommer_2022}{inproceedings}{}
       \name{author}{5}{}{%
         {{hash=0921e3810ca1ba112b5f374d82f0735f}{%
@@ -4916,8 +4916,8 @@
       \strng{authorbibnamehash}{c1e635e3f33ee547be2644eb3d687673}
       \strng{authornamehash}{349136285677176640b3a6d69c98def0}
       \strng{authorfullhash}{c1e635e3f33ee547be2644eb3d687673}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition}

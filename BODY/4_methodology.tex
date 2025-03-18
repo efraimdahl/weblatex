@@ -32,6 +32,31 @@ For \textit{controlled continuation} the user provides both a chord progression 
 \subsection{RhythmLang}
 We propose RhythmLang, a fine-tuned variant of MusicLang with controls for inner metric weight. The fine-tuning targets the \textit{controlled continuation} and the \textit{controlled generation} modes of the model. Here the user provides a MIDI file as input from which inner metric weight is extracted and passed to the model. In \textit{controlled continuation} the user provides two MIDI files, one from which the model continues and one from which the model extracts the target metric weight profile. 
 
+\subsection{Last Minute Gig - extending the game} \label{section:gameext}
+Last Minute Gig \cite{Chalkiadakis_2022} is a Musical Attention Control Training game aimed to help people with Parkinson's improve attention control. This is achieved through repeated sessions of play, where a player improvises along to music and is encouraged to change their playing when the music changes. The music is generated using a simple process described below.
+
+\begin{lstlisting}[language=Python]
+    # Randomly select initial parameters
+    key = random.choice(keys)
+    rhythm = random.choice(rhythms)
+    chord_progression = random.choice(chords)
+    tempo = random.choice(tempos)
+    
+    pool = ["keys", "rhythms", "chords", "tempos", "is_playing"]
+    for bar in range(0,8):
+        play_percussion(tempo, rhythm, bar)
+        
+        if button_pressed():
+            play_guitar_chord(chord_progression[bar])
+        
+        if(bar==7):
+            for param in pool: 
+                if random.choice([True, False]):
+                    change_parameter(param)
+            bar = 0 #trigger loop again
+    \end{lstlisting}
+    
+This simplistic generation process has some key limitations, it only changes every 8 bars, which means the music becomes predictable over time, requiring less attention of the participant, potentially reducing the effect of the intervention. The feedback is very limited, the player only a drum loop and the hears guitar chords that they triggered. Finally, all adjustments are random, they cannot take the players current performance in the game into account. Schlette \cite{Schlette_2022} attempts to improve Last Minute Gig, by introducing feedback and dynamically increasing the difficulty of the music. Specifically they replace the pool of possible drum-loops with loops grouped by levels of syncopation. As the player progresses, the drum-loops chosen by the algorithm become more syncopated, resulting in higher difficulty for the player to follow the music. With IMA \ref{section:ima} one can automatically assess syncopation levels in a piece of music, which corresponds to the difficulty of following the music. Our proposed model RhythmLang, uses IMA as a control method for music generation to dynamically adjust the perceived difficulty of a generated piece. At the same time the model is capable of multi-instrument generation, which should result in richer more varied music as opposed to the drum and player triggered guitar chords in the original game.
 
 \section{Developing the Model}
 
@@ -161,7 +186,7 @@ The target distribution is the rhythmic template, and the generated distribution
 \textbf{RQ2} and \textbf{RQ3} are evaluated through a user study. The goal is to recruit $n=20$ participants to complete a test of interactability and a survey comparatively evaluating the generated music. 
 \subsection{Interactive Study}
 The interactive study aims to evaluate the fitness of the controlled generated music from an MACT perspective. Specifically, in the MACT protocol used by Chalkiadakis \cite{Chalkiadakis_2022}, the patient is supposed to listen to changes in the music and change their playing. There are two options that we are deciding between, both options will operate on $n=5$ pieces that are generated using RhythmLang in the \textit{controlled generation} condition, with rhythm controls at several points in the piece. For this, we provide the model with a MIDI file consisting of rhythm changing at 8-bar intervals concatenated into one file.
-For comparison with the previous system, we generate an additional $n=5$ pieces using the approach by Chalkiadakis \cite{Chalkiadakis_2022} with the algorithm described in the appendix \ref{musicalgorithm}. To reduce potential confounds the RhythmLang generation will follow Chalkiadakis's constraint of initiating changes every 8 bars, though the system is more flexible than that. Additionally, we will be using the same rhythms from Chalkiadakis as control input. Chalkiadakis algorithm will be restricted to changes in rhythm, though it is capable of other changes.\\\\
+For comparison with the previous system, we generate an additional $n=5$ pieces using the approach by Chalkiadakis \cite{Chalkiadakis_2022} with the algorithm described in section ref{section:gameext}. To reduce potential confounds the RhythmLang generation will follow Chalkiadakis's constraint of initiating changes every 8 bars, though the system is more flexible than that. Chalkiadakis algorithm will be restricted to changes in rhythm, though it is capable of other changes.\\\\
 \textbf{Option 1}
 In our simplified interactive sessions, we ask the player to hit a button whenever they hear a change in the music. The button presses are registered alongside the starting time, tempo, and registered changing points (determined from the prompt). Finally, we correlate the timing of the button presses and registered changes are correlated with each other. A high correlation indicates that the participants noticed the changes. 
 \textbf{Option2}: We ask players to tap along to the music, and change their tapping when they notice a change. We analyze the regularity of the taps matching them with the music playing and investigate them for changes. 

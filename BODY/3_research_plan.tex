@@ -10,11 +10,12 @@
 In the previous section, we established the potential of generated music in serious games (section \ref{section:motivation}), and the need for adequate time-varying controls over the generation process (section \ref{section:control}) to reliably ensure the usability of the generated music in the context of MACT. We identified inner metric weight (section \ref{section:rhytmic_weight}) as a promising target to describe rhythmic structure. Research links inner metric weight to rhythmic entrainment, and perceived and observed difficulty for a player to follow/tap along to the music. Additionally, it extends prior work on controlled music generation with a powerful rhythmic feature that is interpretable, relatively concise, and calculated symbolically. 
 We collected crucial technical considerations for music generation, including the overall approach in section \ref{section:non_neural_generation}, architecture in section \ref{section:deep_learning_generation}, representation in section \ref{section:symbolic_audio} and tokenization in section \ref{section:symbolic_tok}. Finally, we discussed promising methods of adding control to a model in section \ref{section:addingcontrol} and how to evaluate a model and its outputs (section \ref{section:evaluation}). 
 
-In this thesis we propose RhythmLang, a deep learning model that can generate a complete musical piece with time-varying controls for rhythmic structure, and therefore pereived difficulty of the piece. The output of the model will be investigated for successful integration of control, player enjoyment, and interactive potential in the context of MACT. RhythmLang will be evaluated with the following research questions.
+In this thesis we propose RhythmLang, a deep learning model that can generate a complete musical piece with time-varying controls for rhythmic structure, and therefore perceived difficulty of following the piece. The output of the model will be investigated for successful integration of control, player enjoyment, and interactive potential in the context of MACT. RhythmLang will be evaluated with the following research questions.
+
 %\item{Research Question 1}: How do we effectively control for rhythmic structure in generated music?
     %\item{Sub Question 1.1}: How do we add control while benefitting from a previously trained model's capabilities?
 \begin{enumerate}
-\item{Research Question 1}: Is the control of rhythmic structure in the resulting model effective?
+\item{Research Question 1}: Is the control of rhythmic structure in the resulting model effective? (effective as in does the music follow the given controls)
 \item{Research Question 2}: Is the generated with control of rhythmic structure appropriate for the context of MACT?
 \begin{itemize}
 \item{Sub Question 2.1}: Do listeners reliably recognize or follow changes in rhythmic structure perceived in the music we generate?

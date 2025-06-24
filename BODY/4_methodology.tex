@@ -1,36 +1,84 @@
 \chapter{Methodology}
 To answer \textbf{RQ1}, we develop, train, and evaluate a model conditioned with inner metric weight. We experiment with different approaches, with particular attention to approaches that require little training resources, such as fine-tuning. 
-The resulting outputs are evaluated quantitatevly, to judge the success of the conditioning.
+The resulting outputs are evaluated quantitavly, to judge the success of the conditioning.
 \textbf{RQ2} is answered with an interactive participant study where a participant either indicates when they hear changes or taps along and adjusts their tapping when they hear changes. \textbf{RQ3} is answered with a participant study that collects ratings on music generated with our model. 
 
-\section{Introducing RhythmLang - Approach and Base-model}
+\section{Approach and Timeline}
+In developing the model we took an iterative aproach, introducing various adjustments to the architecture and data-processing as the need arose. See figures [1,2,3] for a schematic overview of the timeline. 
+In the first section we experimented using MusicLang and the LakhMidi dataset which was abandoned in favor of NotaGen which allowed for a more flexible representation of control input. 
 
-\subsection{Approach}
-Sections \ref{section:non_neural_generation} and \ref{section:deep_learning_generation} discussed the potential approaches to music generation with particular attention to state-of-the-art approaches using deep learning. The developed model will be a transformer due to its ability to effectively sequence and its potential to incorporate additional controls. We will use a symbolic representation of music (as discussed in section \ref{section:symbolic_audio}) due to its lightweight datasets and the ability to make changes to and incorporate the output into a music production environment, enabling a cooperative co-composition process as opposed to replacing the composer. More specifically, we will use a representation similar to REMI+ (see section \ref{section:symbolic_tok}), which extends the standard MIDI events with tokens indicating forms, such as meter, bar lines, and note-duration. This representation is compounded using byte pair encoding (see section \ref{section:symbolic_tok}) to decrease the sequence length and improve the capability and efficiency of the model. \\ 
+\section{Introducing RhythGen - Approach}
+Sections \ref{section:non_neural_generation} and \ref{section:deep_learning_generation} discussed the potential approaches to music generation with particular attention to state-of-the-art approaches using deep learning. 
+We took an iterative approach, refining the architecture 
+RhythGen is a fine-tuned variant of the pretrained Notagen Model. We iterativley investigate the role of different control representation and different control representations. 
 
-We will use the Lakh MIDI Dataset \cite{Raffel_2016}, a widely used open-source and licensed dataset for symbolic music generation, which will help us avoid ethical pitfalls around privacy and copyright (see section \ref{section:ethical}). Finally, we are not attempting to add control by training custom large foundation models, rather we use parameter-efficient fine-tuning or guidance to add control (section \ref{section:addingcontrol}).  As a result, we only train a fraction of the model parameters, with substantially less need for data, computation, and energy. All relevant code, including code for training, configuration, and data preparation will be made available online alongside the trained models. Finally, we use and extend an open-source model MusicLang in collaboration with its maintainers. If successful these extensions will contribute to the MusicLang project and be more widely available in a well-documented and continuously maintained ecosystem, with potential integrations into mainstream music production and composition software. 
-
-\subsection{MusicLang - The foundation Model}
-MusicLang's core model is a transformer based on LLAMA 2, trained on the Lakh MIDI Dataset \cite{Raffel_2016}. It can generate multi-track instrumental pieces up to 3 minutes long with control for chord progression, instrumentation, and range. Additionally, it can create interpolations and continuations of a user-provided piece. It is trained on an extended vocabulary of tokens similar to REMI\footnote{https://musiclang.github.io/tokenizer/} with additional tokens detailing the harmonic structure and voice characteristics such as instrumentation or range (see figure \ref{fig:musiclangtok}). This base vocabulary is extended using a BPE tokenizer (see section \ref{section:symbolic_tok}). 
-For inference there are multiple different modes of generation, 1) free generation, 2) continuation, 3) controlled generation, and 4) controlled continuation. For free generation, the user can indicate the following settings.
-\begin{itemize}
-\item Number of tokens: Number of tokens to generate, this influences the length of the music depending on the number of instruments. More instruments and higher note density means more tokens per second of music.
-\item Temperature: Temperature parameter for softmax sampling (see section \ref{section:token_sampling})
-\item Top p: Target percentage: (see section \ref{section:token_sampling}) 
-\end{itemize}
-For controlled generation, the user can indicate a chord progression as a string. This includes extended chord variations including Major (M), minor (m), 7, m7b5, sus2, sus4, m7, M7, dim, dim0. One can also specify a bass note, i.e. CM7/D. The length of the chord progression influences the length of the generation.
-For \textit{continuation}, the user provides a MIDI track and the section of measures that are used as the basis for generation.
-For \textit{controlled continuation} the user provides both a chord progression and a MIDI track. 
+\subsection{Pretrained Notagen Model}
+We base our model on NotaGen with 100 million parameters\cite{wang2025notagenadvancingmusicalitysymbolic}, a small variant of the state-of-the-art symbolic music generator trained on 1.6 million pieces in ABC notation. NotaGen uses bar-stream-patching and the tunesformer architecture \cite{tunesformer}. The musical piece is separated into patches. Each bar in each voice is devided into one or more such patches. The tunesformer consists of two GPT2 decoders \cite{Radford_Wu_Child_Luan_gpt2_2019}, the first decoder captures temporal relationships and structure between musical bars and creates embeddings for each patch. These embeddings are provided to the second decoder as a feature, which autoregressivley generates the ABC-notation characters of the given patch. 
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=1\textwidth]{IMAGES/MusicLang.JPG} 
-\caption{MusicLang's tokenization on a high level, shows a hierarchical tokenization process. At the highest level are chord-related tokens that describe the harmonic structure of a section. This is followed by instrument-level tokens that encode summarizing features such as instrumentation, octave, range, and note density of a voice within a section. Finally, there are note-level tokens that encode the pitch and duration of an event within a voice within a section.}
-\label{fig:musiclangtok}
+\includegraphics[width=1\textwidth]{IMAGES/NotaGenArchitecture.png} 
+\caption{The NotaGen/Tunesformer tokenization and data-processing setup. The patch-level-decoder extracts features for the character level decoder based on which the }
+\label{fig:notagenarch}
 \end{figure}
 
-\subsection{RhythmLang}
-We propose RhythmLang, a fine-tuned variant of MusicLang with controls for inner metric weight. The fine-tuning targets the \textit{controlled continuation} and the \textit{controlled generation} modes of the model. Here the user provides a MIDI file as input from which inner metric weight is extracted and passed to the model. In \textit{controlled continuation} the user provides two MIDI files, one from which the model continues and one from which the model extracts the target metric weight profile. 
+\subsection{Control Representation}
+We use two different classes of control representation: \textit{discrete labels} and \textit{inner metric or spectral weight profiles}. Both types are derived from the musical onsets of the piece. 
+In the lieder dataset the onsets of each voice are projected on to a single musical line, several voices playing at the same time (i.e in chords) are counted as a single onset. The onsets of each piece are arranged on a $96th$ note grid, $24$ notes per quarter note, which allows for integer representation of 16th note triplets and 32nd notes, smaller note values and grace notes (rare in the dataset) are ignored. 
+Due to issues discussed in [PUT SECTION REFERENCE HERE], the treatment of onsets in the ragtime dataset varies slightly.
+In the ragtime dataset the onsets are taken only from the first voice (in most cases this will be the right hand or a subsection of the right hand) and arranged on a smaller $48$ note grid with $12$ subdivisions per quarter note, smaller note values and grace notes are ignored. 
+The comparison of the different control representations is motivated due to their varied granularity and complexity. Note density is captured and controlled for in a variety of ways in several projects on symbolic music generation \cite{Tan_Herremans_2020} \cite{wu2023musemorphose} \cite{Min_Jiang_Xia_Zhao_polyffusion_2023} \cite{Rütte_figaro_2023}, it is simple to evaluate and compare to other models. 
+The syncopation labels are the most condensed representation of our target conditioning. 
+Inner metric analysis has been successfully used for classification of dance music, detection of meter, study of syncopation. In theory conditi
+Spectral weight profiles remain more stable over time but beyond 
+
+
+
+\subsubsection{Note Density} For the \textit{discrete label} representation, each bar of the piece is labeled in regard to note density and syncopation levels. For \textit{note density}, all unique onsets across all voices are extracted, the note density is defined as the average distance between two consecutive onsets:
+$$
+density = \frac{1}{|onsets|}\sum_{n \in onsets}i_j-i_{j-1}
+$$
+The labels are chosen according to hard coded borders, with 6 classes: $borders = <[3,6,8,12,18,24,48]>$, in a 96 note grid, a label 1 indicates the region 3-6 which is a sixteenth note texture or smaller, while a label 6 indicates the region 24-48, which ranges from a quarter to half-note texture. Averages exceeding 48, or smaller than 3 are clamped to the closest border. \\
+\subsubsection{Syncopation Levels}
+For \textit{Syncopation Levels} Bemman \cite{Bemman2024} proposes a method to calculate syncopation levels of a sequence by taking the chi-squared distance  between the folded inner metric weight of a sequence  $P_i$ and a meter dependent non-uniform distribution based on beat-strength $S_i$. 
+ 
+We extend the measure to accept a higher resolution grid, with 24 subdivisions per quarter note and verify its performance on the song2014 dataset.  We use following procedure.
+
+\begin{algorithm}\label{algorithm:innermetricweight}
+\caption{Calculate Syncopation Score}
+\begin{algorithmic}[1]
+\Require{Time signature, desired  granularity, Onsets of current bar $B$}
+\State Create a nominal distribution $S$ by calculating the beat strength of each beat position at the desired granularity and time signature.\cite{conf/ismir/CuthbertA10}
+\State $B_{12}$ = Repeat $B$ twelve times
+\State $P_l$ = Extract the inner metric weight profile of $B_{12}$.
+\State $P$=Fold $P_l$ into a single bar by summing metric weights at corresponding grid positions across bars.
+\State Normalize $P$ and $S$ so that its values fall between 1 and 0
+\State 
+\[
+\text{syncopation score} = 
+\sum_{i=0}^{n-1} \left( \frac{(P'_i - S'_i)^2}{P'_i + S'_i} \right)^a
+\]
+\end{algorithmic}
+\end{algorithm}
+
+The parameter $a$ is a weighing parameter and tuned to maximize the correlation of the syncopation score and human ratings of syncopation levels in the song2014 dataset.
+
+Our revised method at higher resolution achives a similar spearman ranked correlation on the song2014 \cite{chunyang2015a} dataset of simple rhythms and perceptual ratings as Bemman with a correlation of 0.624 compared to the reported 0.66 for the measurement using metric weight and nominal weights. 
+
+Since IMA requires at least three evenly spaced onsets to create a local meter, it is generally less effective for short sequences. Therefore, to calculate the syncopation score for a single bar, the bar is first repeated 12 times, then the inner metric weight profile is extracted, folded and normalized as in \ref{algorithm:innermetricweight} 
+
+This process is applied to every bar in the dataset to calculate a per-bar syncopation score per piece. The syncopation labels are calculated by splitting the syncopation scores into 6 quantiles across the entire dataset. 
+
+\subsubsection{Continuous Representation}
+We also use the spectral weight profiles (SPW) directly as a conditioning mechanism. 
+The profiles are aligned by bar with respect to each bars' meter to accommodate for shifting meters. To balance dataset-compatibility with conditioning size, we limit the meters in the dataset to meters with a ratio of 1.5 (i.e 3/2 is allowed but 4/2 not). The length of the SPW vector is $resolution \times max_ratio = 96 \times 1.5 = 148$. The unused space of the vectors is set to 0.  
+
+
+
+
+
+\subsection{RhyGen}
+We propose RhyGen, a fine-tuned variant of MusicLang with controls for inner metric weight. The fine-tuning targets the \textit{controlled continuation} and the \textit{controlled generation} modes of the model. Here the user provides a MIDI file as input from which inner metric weight is extracted and passed to the model. In \textit{controlled continuation} the user provides two MIDI files, one from which the model continues and one from which the model extracts the target metric weight profile. 
 
 \subsection{Last Minute Gig - extending the game} \label{section:gameext}
 Last Minute Gig \cite{Chalkiadakis_2022} is a Musical Attention Control Training game aimed to help people with Parkinson's improve attention control. This is achieved through repeated sessions of play, where a player improvises along to music and is encouraged to change their playing when the music changes. The music is generated using a simple process described below.
@@ -56,7 +104,7 @@ Last Minute Gig \cite{Chalkiadakis_2022} is a Musical Attention Control Training
             bar = 0 #trigger loop again
     \end{lstlisting}
     
-This simplistic generation process has some key limitations, it only changes every 8 bars, which means the music becomes predictable over time, requiring less attention of the participant, potentially reducing the effect of the intervention. The feedback is very limited, the player only a drum loop and the hears guitar chords that they triggered. Finally, all adjustments are random, they cannot take the players current performance in the game into account. Schlette \cite{Schlette_2022} attempts to improve Last Minute Gig, by introducing feedback and dynamically increasing the difficulty of the music. Specifically they replace the pool of possible drum-loops with loops grouped by levels of syncopation. As the player progresses, the drum-loops chosen by the algorithm become more syncopated, resulting in higher difficulty for the player to follow the music. With IMA \ref{section:ima} one can automatically assess syncopation levels in a piece of music, which corresponds to the difficulty of following the music. Our proposed model RhythmLang, uses IMA as a control method for music generation to dynamically adjust the perceived difficulty of a generated piece. At the same time the model is capable of multi-instrument generation, which should result in richer more varied music as opposed to the drum and player triggered guitar chords in the original game.
+This simplistic generation process has some key limitations, it only changes every 8 bars, which means the music becomes predictable over time, requiring less attention of the participant, potentially reducing the effect of the intervention. The feedback is very limited, the player only a drum loop and the hears guitar chords that they triggered. Finally, all adjustments are random, they cannot take the players current performance in the game into account. Schlette \cite{Schlette_2022} attempts to improve Last Minute Gig, by introducing feedback and dynamically increasing the difficulty of the music. Specifically they replace the pool of possible drum-loops with loops grouped by levels of syncopation. As the player progresses, the drum-loops chosen by the algorithm become more syncopated, resulting in higher difficulty for the player to follow the music. With IMA \ref{section:ima} one can automatically assess syncopation levels in a piece of music, which corresponds to the difficulty of following the music. Our proposed model RhyGen, uses IMA as a control method for music generation to dynamically adjust the perceived difficulty of a generated piece. At the same time the model is capable of multi-instrument generation, which should result in richer more varied music as opposed to the drum and player triggered guitar chords in the original game.
 
 \section{Developing the Model}
 
@@ -125,8 +173,8 @@ The model then learns embeddings of the distribution alongside positional embedd
 The model is trained by providing a piece as a MIDI file, this is then split into two streams. On the one hand, the MIDI file is tokenized, on the other hand, the rhythmic profile is extracted from the MIDI file. The model is trained on both the embeddings of the extracted profile and the tokenized MIDI file. 
 For inference, the user can provide a reference track from which the inner metric profile is extracted and passed to the model. 
 
-\subsection{Training RhythmLang}
-Methods 1, 2, and 3 are sorted by expected difficulty of implementation. We first implement these methods on BassCraft since the model is only a fraction of the size of RhythmLang and therefore easier to train and iterate on. First, BassCraft is extended using each method with control for note density. When a method is found that introduces sufficient control, we extend this to IMA and try generating basslines with a provided metric profile. Finally, the most promising method (or combination of methods) is adopted to MusicLang, creating RhythmLang.
+\subsection{Training RhyGen}
+Methods 1, 2, and 3 are sorted by expected difficulty of implementation. We first implement these methods on BassCraft since the model is only a fraction of the size of RhyGen and therefore easier to train and iterate on. First, BassCraft is extended using each method with control for note density. When a method is found that introduces sufficient control, we extend this to IMA and try generating basslines with a provided metric profile. Finally, the most promising method (or combination of methods) is adopted to MusicLang, creating RhyGen.
 
 
 \section{Model Evaluation}
@@ -139,7 +187,7 @@ The following table describes the datasets we will construct, their purpose, and
         \hline
         \textbf{Name} & \textbf{Aspect} & \textbf{Description} \\
         \hline
-        \texttt{lmd1000} & Fine-tuning Dataset & 1000 songs from Lakh MIDI Dataset \cite{Raffel_2016} (containing bass-lines so we can use it to train both RhythmLang and BassCraft) \\
+        \texttt{lmd1000} & Fine-tuning Dataset & 1000 songs from Lakh MIDI Dataset \cite{Raffel_2016} (containing bass-lines so we can use it to train both RhyGen and BassCraft) \\
         \hline
         \texttt{lmd500} & Evaluation Dataset & Randomly selected subsection of 4 to 16 bars of 500 songs not in \textit{lmd1000} \\
         \hline
@@ -149,9 +197,9 @@ The following table describes the datasets we will construct, their purpose, and
         \hline
         \texttt{bcraft\_inf} & Preliminary BassCraft Evaluation & BassCraft applied to \texttt{lmd500} with randomly chosen rhythms from \texttt{srhythm}, this is used for development purposes \\
         \hline
-        \texttt{mlang\_inf\_con} & RhythmLang Controlled Generation & RhythmLang applied to 500 chord-rhythm pairs from \texttt{schord} and \texttt{srhythm} \\
+        \texttt{mlang\_inf\_con} & RhyGen Controlled Generation & RhyGen applied to 500 chord-rhythm pairs from \texttt{schord} and \texttt{srhythm} \\
         \hline
-        \texttt{mlang\_inf} & RhythmLang Controlled Continuation & RhythmLang applied to \texttt{lmd500}, continuing excerpts with randomly chosen rhythms from \texttt{srhythm} \\
+        \texttt{mlang\_inf} & RhyGen Controlled Continuation & RhyGen applied to \texttt{lmd500}, continuing excerpts with randomly chosen rhythms from \texttt{srhythm} \\
         \hline
     \end{tabular}
     \caption{Summary of datasets used for fine-tuning and evaluation}
@@ -159,12 +207,12 @@ The following table describes the datasets we will construct, their purpose, and
 \end{table}
 
 
-%For fine-tuning the models with new control mechanisms, we use a small random subset of 1000 songs from the Lakh MIDI Dataset $lmd1000$. For BassCraft, we ensure that all songs in $lmd1000$ contain bass lines. Both BassCraft and RhythmLang are evaluated objectively using a second random subset of 500 songs from which a random subsection between 4 and 16 bars is selected for the \textit{continuation} mode of RhythmLang and the bass generation of BassCraft. This is the $lmd500$ evaluation dataset. The references for inner metric weight come from a small set of $n=30$ manually chosen prototypical rhythms $srhythm$ using the set by \cite{Chew_Volk_Lee_Dance_metric_weight_2005} of prototypical rhythms for Tango, Rumba BossaNova, Merengue, and March as a starting point. This can be expanded as desired for showcasing the control effectiveness.
+%For fine-tuning the models with new control mechanisms, we use a small random subset of 1000 songs from the Lakh MIDI Dataset $lmd1000$. For BassCraft, we ensure that all songs in $lmd1000$ contain bass lines. Both BassCraft and RhyGen are evaluated objectively using a second random subset of 500 songs from which a random subsection between 4 and 16 bars is selected for the \textit{continuation} mode of RhyGen and the bass generation of BassCraft. This is the $lmd500$ evaluation dataset. The references for inner metric weight come from a small set of $n=30$ manually chosen prototypical rhythms $srhythm$ using the set by \cite{Chew_Volk_Lee_Dance_metric_weight_2005} of prototypical rhythms for Tango, Rumba BossaNova, Merengue, and March as a starting point. This can be expanded as desired for showcasing the control effectiveness.
 %To evaluate combined control of chords and rhythm we create a small set $n=30$ of different two, three, and four-bar chord progressions.
 %Finally, we create three datasets containing inferences from the model for evaluation, $bcraft\_inf$,  $mlang\_inf\_con$, $srhythm$. Each contains 500 entries, the model weights remain frozen during this process.  
 %To evaluate BassCraft we create $bcraft\_inf$ by running BassCraft on $lmd500$ with a randomly chosen rhythm from $srhythm$ as a control condition for each section in $lmd500$. 
-%To evaluate RhythmLangs's \textit{controlled generation} mode we create $mlang\_inf\_con$ by running RhythmLang on 500 different pairwise permutations of chords from $schord$ and rhythms from $srhythm$. 
-%To evaluate RhythmLang's \textit{controlled continuation} we run RhythmLang on $lmd500$ with randomly chosen rhythms from $srhythm$ for each track to create $mlang\_inf$, where RhythmLang continues from the excerpt from $lmd500$.  
+%To evaluate RhyGens's \textit{controlled generation} mode we create $mlang\_inf\_con$ by running RhyGen on 500 different pairwise permutations of chords from $schord$ and rhythms from $srhythm$. 
+%To evaluate RhyGen's \textit{controlled continuation} we run RhyGen on $lmd500$ with randomly chosen rhythms from $srhythm$ for each track to create $mlang\_inf$, where RhyGen continues from the excerpt from $lmd500$.  
 
 \subsection{Evaluating Control-Effectiveness}
 As discussed in section \ref{section:evaluation}, calculating whether or not the control is effective depends on the controlled feature but can happen automatically. 
@@ -185,8 +233,8 @@ The target distribution is the rhythmic template, and the generated distribution
 \section{User Study}
 \textbf{RQ2} and \textbf{RQ3} are evaluated through a user study. The goal is to recruit $n=20$ participants to complete a test of interactability and a survey comparatively evaluating the generated music. 
 \subsection{Interactive Study}
-The interactive study aims to evaluate the fitness of the controlled generated music from an MACT perspective. Specifically, in the MACT protocol used by Chalkiadakis \cite{Chalkiadakis_2022}, the patient is supposed to listen to changes in the music and change their playing. There are two options that we are deciding between, both options will operate on $n=5$ pieces that are generated using RhythmLang in the \textit{controlled generation} condition, with rhythm controls at several points in the piece. For this, we provide the model with a MIDI file consisting of rhythm changing at 8-bar intervals concatenated into one file.
-For comparison with the previous system, we generate an additional $n=5$ pieces using the approach by Chalkiadakis \cite{Chalkiadakis_2022} with the algorithm described in section ref{section:gameext}. To reduce potential confounds the RhythmLang generation will follow Chalkiadakis's constraint of initiating changes every 8 bars, though the system is more flexible than that. Chalkiadakis algorithm will be restricted to changes in rhythm, though it is capable of other changes.\\\\
+The interactive study aims to evaluate the fitness of the controlled generated music from an MACT perspective. Specifically, in the MACT protocol used by Chalkiadakis \cite{Chalkiadakis_2022}, the patient is supposed to listen to changes in the music and change their playing. There are two options that we are deciding between, both options will operate on $n=5$ pieces that are generated using RhyGen in the \textit{controlled generation} condition, with rhythm controls at several points in the piece. For this, we provide the model with a MIDI file consisting of rhythm changing at 8-bar intervals concatenated into one file.
+For comparison with the previous system, we generate an additional $n=5$ pieces using the approach by Chalkiadakis \cite{Chalkiadakis_2022} with the algorithm described in section ref{section:gameext}. To reduce potential confounds the RhyGen generation will follow Chalkiadakis's constraint of initiating changes every 8 bars, though the system is more flexible than that. Chalkiadakis algorithm will be restricted to changes in rhythm, though it is capable of other changes.\\\\
 \textbf{Option 1}
 In our simplified interactive sessions, we ask the player to hit a button whenever they hear a change in the music. The button presses are registered alongside the starting time, tempo, and registered changing points (determined from the prompt). Finally, we correlate the timing of the button presses and registered changes are correlated with each other. A high correlation indicates that the participants noticed the changes. 
 \textbf{Option2}: We ask players to tap along to the music, and change their tapping when they notice a change. We analyze the regularity of the taps matching them with the music playing and investigate them for changes. 
@@ -203,7 +251,7 @@ For P2 we take recognition accuracy as calculated above, and group them by the f
 P3 is only relevant in option 2. Here the users tapping is quantized to the smallest rhythmic value of the reference rhythm. The rhythmic profile of the user's tapping is extracted using IMA, and then the chi-squared distance between the rhythmic profile of the tapping and the rhythmic profile of the music is calculated. This is calculated for each of the five rhythmic conditions, and then compared as above using repeated pairwise t-tests with $\alpha=0.05$
 
 \subsection{Survey}
-The survey will compare the listening experience of our model to the rule-based music generation system used in the original game to answer RQ3, whether the music by RhythmLang improves listener experience.  The survey will also include the original MusicLang, to assess whether or not the fine-tuning for rhythm control decreases other capabilities of the model. Optionally, we include other symbolic music generators such as FIGARO \cite{Rütte_figaro_2023}, this will help provide a point of comparison. Following the recommendation of \cite{Yin_Reuben_Stepney_Collins_2023} we could also include a state-of-the-art rule-based generator such as MayaMarkov \cite{Collins_Laney_2017} and human-composed music from the Lakh MIDI dataset. 
+The survey will compare the listening experience of our model to the rule-based music generation system used in the original game to answer RQ3, whether the music by RhyGen improves listener experience.  The survey will also include the original MusicLang, to assess whether or not the fine-tuning for rhythm control decreases other capabilities of the model. Optionally, we include other symbolic music generators such as FIGARO \cite{Rütte_figaro_2023}, this will help provide a point of comparison. Following the recommendation of \cite{Yin_Reuben_Stepney_Collins_2023} we could also include a state-of-the-art rule-based generator such as MayaMarkov \cite{Collins_Laney_2017} and human-composed music from the Lakh MIDI dataset. 
 The questionnaire will be adopted from \cite{Yin_Reuben_Stepney_Collins_2023}, and each musical excerpt will be rated on a 7-point Likert scale along the following dimensions: aesthetic pleasure, repetition, melody, harmony, and rhythm.\footnote{From \cite{Yin_Reuben_Stepney_Collins_2023}: Aesthetic pleasure (Ap) The extent to which someone finds beauty in something 
 Repetition or self-reference (Re) The reuse, in exact or inexact form, of musical material (e.g., notes, melody, harmony, rhythm) within a piece.
 Melody (Me) A succession of notes, varying in pitch, which have an organized and recognizable shape. Melody is horizontal, i.e. the notes are heard consecutively.
@@ -216,10 +264,10 @@ The questionnaire also includes questions on demographic information such as gen
 
 \textbf{Hypothetical hypotheses}: 
 \begin{itemize}
-\item{P1} Ratings of aesthetic pleasure are higher for RhythmLang than for Chalkiadakis's rule-based system.
-\item{P2} Ratings of aesthetic pleasure are not higher for MusicLang than for RhythmLang. 
+\item{P1} Ratings of aesthetic pleasure are higher for RhyGen than for Chalkiadakis's rule-based system.
+\item{P2} Ratings of aesthetic pleasure are not higher for MusicLang than for RhyGen. 
 \item{P3} Ratings of repetition, melody, harmony, and rhythm are positively correlated with ratings for aesthetic pleasure.
-\item{P4} Ratings of rhythmic success are higher in RhythmLang with certain rhythm conditions than others.
+\item{P4} Ratings of rhythmic success are higher in RhyGen with certain rhythm conditions than others.
 \end{itemize}
 
 For P1 and P2, the average ratings of the groups are compared and tested for significance using t-tests with $\alpha=0.05$. 
@@ -228,7 +276,7 @@ For P4 we group the ratings of rhythmic success by rhythm condition and then per
 
 
 \subsection{Additional points of discussion}
-Beyond simple statistical evaluation, we would include listening examples and an interactive code space on Google Collab where the reader can interact with RhythmLang. Additionally, discussing participants' comments, and investigating the model output musicologically could be worthwhile depending on the results. 
+Beyond simple statistical evaluation, we would include listening examples and an interactive code space on Google Collab where the reader can interact with RhyGen. Additionally, discussing participants' comments, and investigating the model output musicologically could be worthwhile depending on the results. 
 \section{Thesis Timeline}
 
 \begin{figure}[H]
